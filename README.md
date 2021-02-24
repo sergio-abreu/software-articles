@@ -1,2 +1,6 @@
-# martin-fowler-articles
-A list of Martin Fowler articles from his website in json
+# Software Development Articles
+
+A list of articles from blogs about software development in json.
+
+Authors: 
+Martin Fowler: https://martinfowler.com/
