@@ -42,7 +42,7 @@ func ToArticle(customArticle Article) (article.Article, error) {
 		Author:      curation.GetCuratorName(curation.VladimirKhorikovBlog),
 		Link:        fmt.Sprintf("%s%s", curation.VladimirKhorikovBlog, customArticle.Link),
 		Date:        date,
-		Tags:        customArticle.Tags,
+		Tags:        article.SanitizeTags(customArticle.Tags),
 		Site:        curation.VladimirKhorikovBlog,
 	}, nil
 }

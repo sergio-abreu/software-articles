@@ -51,7 +51,7 @@ func ToArticle(customArticle Article) (article.Article, error) {
 		Author:      author,
 		Link:        fmt.Sprintf("%s%s", curation.MartinFowlerBlog, customArticle.Link),
 		Date:        date,
-		Tags:        customArticle.Tags,
+		Tags:        article.SanitizeTags(customArticle.Tags),
 		Site:        curation.MartinFowlerBlog,
 	}, nil
 }

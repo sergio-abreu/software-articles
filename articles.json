@@ -135,16 +135,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Avoiding Repetition",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/ieeeSoftware/repetition.pdf",
-    "date": "2001-01-01T00:00:00Z",
-    "tags": [
-      "ieeeSoftware"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Variations on a Theme of XP",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/xpVariation.html",
@@ -165,12 +155,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Crossing Refactoring's Rubicon",
+    "description": "Avoiding Repetition",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/articles/refactoringRubicon.html",
-    "date": "2001-02-01T00:00:00Z",
+    "link": "https://martinfowler.com/ieeeSoftware/repetition.pdf",
+    "date": "2001-01-01T00:00:00Z",
     "tags": [
-      "refactoring"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -197,12 +187,22 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Crossing Refactoring's Rubicon",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/articles/refactoringRubicon.html",
+    "date": "2001-02-01T00:00:00Z",
+    "tags": [
+      "refactoring"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Separating User Interface Code",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/ieeeSoftware/separation.pdf",
     "date": "2001-03-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -212,7 +212,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/protectedVariation.pdf",
     "date": "2001-05-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -232,7 +232,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/coupling.pdf",
     "date": "2001-07-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -242,7 +242,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/explicit.pdf",
     "date": "2001-11-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware",
+      "ieeesoftware",
       "programming style"
     ],
     "site": "https://martinfowler.com"
@@ -253,7 +253,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/purpose.pdf",
     "date": "2002-01-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -263,8 +263,8 @@
     "link": "https://martinfowler.com/ieeeSoftware/published.pdf",
     "date": "2002-03-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware",
-      "API design"
+      "ieeesoftware",
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -274,7 +274,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/yetOptimization.pdf",
     "date": "2002-05-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -315,7 +315,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/netAttributes.pdf",
     "date": "2002-09-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -325,7 +325,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/metadata.pdf",
     "date": "2002-11-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware",
+      "ieeesoftware",
       "programming style"
     ],
     "site": "https://martinfowler.com"
@@ -347,7 +347,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/whenType.pdf",
     "date": "2003-01-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware",
+      "ieeesoftware",
       "programming style"
     ],
     "site": "https://martinfowler.com"
@@ -373,17 +373,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Patterns",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/ieeeSoftware/patterns.pdf",
-    "date": "2003-03-01T00:00:00Z",
-    "tags": [
-      "ieeeSoftware",
-      "writing"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Canadian Workshop on Scaling XP/Agile Methods",
     "author": "Jonathan Rasmusson and Jim McDonald",
     "link": "https://martinfowler.com/articles/canScaling.html",
@@ -392,6 +381,17 @@
       "agile",
       "conferences",
       "process theory"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Patterns",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/ieeeSoftware/patterns.pdf",
+    "date": "2003-03-01T00:00:00Z",
+    "tags": [
+      "ieeesoftware",
+      "writing"
     ],
     "site": "https://martinfowler.com"
   },
@@ -411,7 +411,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/componentChaos.pdf",
     "date": "2003-05-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -524,22 +524,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Refactoring Cringely",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/RefactoringCringely.html",
-    "date": "2003-06-03T00:00:00Z",
-    "tags": [
-      "refactoring"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Harvested Framework",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/HarvestedFramework.html",
     "date": "2003-06-03T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -549,7 +539,17 @@
     "link": "https://martinfowler.com/bliki/FoundationFramework.html",
     "date": "2003-06-03T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Refactoring Cringely",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/RefactoringCringely.html",
+    "date": "2003-06-03T00:00:00Z",
+    "tags": [
+      "refactoring"
     ],
     "site": "https://martinfowler.com"
   },
@@ -600,7 +600,7 @@
     "link": "https://martinfowler.com/bliki/TypedCollection.html",
     "date": "2003-06-17T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -627,22 +627,22 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "The Difference between Marketecture and Tarchitecture",
-    "author": "Luke Hohmann",
-    "link": "https://martinfowler.com/ieeeSoftware/marketecture.pdf",
-    "date": "2003-07-01T00:00:00Z",
-    "tags": [
-      "ieeeSoftware"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Who Needs an Architect?",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf",
     "date": "2003-07-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "The Difference between Marketecture and Tarchitecture",
+    "author": "Luke Hohmann",
+    "link": "https://martinfowler.com/ieeeSoftware/marketecture.pdf",
+    "date": "2003-07-01T00:00:00Z",
+    "tags": [
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -897,7 +897,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/dataAccessRoutines.pdf",
     "date": "2003-11-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -927,7 +927,7 @@
     "link": "https://martinfowler.com/bliki/CommandOrientedInterface.html",
     "date": "2003-11-23T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -994,6 +994,19 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Published Interface",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/PublishedInterface.html",
+    "date": "2003-12-26T00:00:00Z",
+    "tags": [
+      "encapsulation",
+      "language feature",
+      "application architecture",
+      "api design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Once Upona Time In The West",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/OnceUponaTimeInTheWest.html",
@@ -1004,15 +1017,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Published Interface",
+    "description": "Objects And Iteration",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/PublishedInterface.html",
-    "date": "2003-12-26T00:00:00Z",
+    "link": "https://martinfowler.com/bliki/ObjectsAndIteration.html",
+    "date": "2004-01-01T00:00:00Z",
     "tags": [
-      "encapsulation",
-      "language feature",
-      "application architecture",
-      "API design"
+      "computer history"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1022,17 +1032,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/continuousDesign.pdf",
     "date": "2004-01-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Objects And Iteration",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/ObjectsAndIteration.html",
-    "date": "2004-01-01T00:00:00Z",
-    "tags": [
-      "computer history"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1092,6 +1092,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Decorated Command",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/DecoratedCommand.html",
+    "date": "2004-01-24T00:00:00Z",
+    "tags": [
+      "api design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Very Low Defect Project",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/VeryLowDefectProject.html",
@@ -1099,16 +1109,6 @@
     "tags": [
       "continuous delivery",
       "extreme programming"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Decorated Command",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/DecoratedCommand.html",
-    "date": "2004-01-24T00:00:00Z",
-    "tags": [
-      "API design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1149,7 +1149,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/moduleAssembly.pdf",
     "date": "2004-03-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1160,7 +1160,7 @@
     "date": "2004-03-08T00:00:00Z",
     "tags": [
       "process theory",
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1218,16 +1218,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "MDA: Revenge of the  Modelers or UML Utopia?",
-    "author": "Dave Thomas",
-    "link": "https://martinfowler.com/ieeeSoftware/mda-thomas.pdf",
-    "date": "2004-05-01T00:00:00Z",
-    "tags": [
-      "ieeeSoftware"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Is Design Dead?",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/designDead.html",
@@ -1242,12 +1232,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Quantity",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/eaaDev/quantity.html",
-    "date": "2004-05-10T00:00:00Z",
+    "description": "MDA: Revenge of the  Modelers or UML Utopia?",
+    "author": "Dave Thomas",
+    "link": "https://martinfowler.com/ieeeSoftware/mda-thomas.pdf",
+    "date": "2004-05-01T00:00:00Z",
     "tags": [
-      "analysis patterns"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1272,6 +1262,28 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Quantity",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/eaaDev/quantity.html",
+    "date": "2004-05-10T00:00:00Z",
+    "tags": [
+      "analysis patterns"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Yesterdays Weather",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/YesterdaysWeather.html",
+    "date": "2004-05-12T00:00:00Z",
+    "tags": [
+      "extreme programming",
+      "project planning",
+      "estimation"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Question Time Panel",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/QuestionTimePanel.html",
@@ -1288,18 +1300,6 @@
     "date": "2004-05-12T00:00:00Z",
     "tags": [
       "writing"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Yesterdays Weather",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/YesterdaysWeather.html",
-    "date": "2004-05-12T00:00:00Z",
-    "tags": [
-      "extreme programming",
-      "project planning",
-      "estimation"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1419,7 +1419,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/designGuideline.pdf",
     "date": "2004-07-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1483,7 +1483,7 @@
     "link": "https://martinfowler.com/bliki/CourtesyImplementation.html",
     "date": "2004-08-12T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1518,16 +1518,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Definition Of Refactoring",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/DefinitionOfRefactoring.html",
-    "date": "2004-09-01T00:00:00Z",
-    "tags": [
-      "refactoring"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Is Declaration Ordering Refactoring",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/IsDeclarationOrderingRefactoring.html",
@@ -1538,12 +1528,22 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Definition Of Refactoring",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/DefinitionOfRefactoring.html",
+    "date": "2004-09-01T00:00:00Z",
+    "tags": [
+      "refactoring"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Fail Fast",
     "author": "Jim Shore",
     "link": "https://martinfowler.com/ieeeSoftware/failFast.pdf",
     "date": "2004-09-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1568,16 +1568,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Magellan Meridian Gps",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/MagellanMeridianGps.html",
-    "date": "2004-09-06T00:00:00Z",
-    "tags": [
-      "gadgets"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Standard Story Points",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/StandardStoryPoints.html",
@@ -1587,6 +1577,16 @@
       "requirements analysis",
       "project planning",
       "estimation"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Magellan Meridian Gps",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/MagellanMeridianGps.html",
+    "date": "2004-09-06T00:00:00Z",
+    "tags": [
+      "gadgets"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1664,7 +1664,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/beforeClarity.pdf",
     "date": "2004-11-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1689,6 +1689,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Dominica",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/Dominica.html",
+    "date": "2004-12-06T00:00:00Z",
+    "tags": [
+      "travel"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "More Version Control",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/MoreVersionControl.html",
@@ -1696,16 +1706,6 @@
     "tags": [
       "version control",
       "writing"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Dominica",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/Dominica.html",
-    "date": "2004-12-06T00:00:00Z",
-    "tags": [
-      "travel"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1753,6 +1753,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Ball And Socket",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/BallAndSocket.html",
+    "date": "2005-02-03T00:00:00Z",
+    "tags": [
+      "uml"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Rotation",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/Rotation.html",
@@ -1760,16 +1770,6 @@
     "tags": [
       "team organization",
       "thoughtworks"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Ball And Socket",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/BallAndSocket.html",
-    "date": "2005-02-03T00:00:00Z",
-    "tags": [
-      "uml"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1810,7 +1810,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/coffeeShop.pdf",
     "date": "2005-03-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1939,7 +1939,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/accChange.pdf",
     "date": "2005-05-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware"
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -1966,9 +1966,19 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "A Language Workbench in Action - MPS",
+    "description": "Language Workbenches and Model Driven Architecture",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/articles/mpsAgree.html",
+    "link": "https://martinfowler.com/articles/mdaLanguageWorkbench.html",
+    "date": "2005-06-12T00:00:00Z",
+    "tags": [
+      "language workbench"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Generating Code for DSLs",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/articles/codeGenDsl.html",
     "date": "2005-06-12T00:00:00Z",
     "tags": [
       "language workbench"
@@ -1986,19 +1996,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Language Workbenches and Model Driven Architecture",
+    "description": "A Language Workbench in Action - MPS",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/articles/mdaLanguageWorkbench.html",
-    "date": "2005-06-12T00:00:00Z",
-    "tags": [
-      "language workbench"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Generating Code for DSLs",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/articles/codeGenDsl.html",
+    "link": "https://martinfowler.com/articles/mpsAgree.html",
     "date": "2005-06-12T00:00:00Z",
     "tags": [
       "language workbench"
@@ -2023,8 +2023,18 @@
     "date": "2005-06-26T00:00:00Z",
     "tags": [
       "application architecture",
-      "API design",
+      "api design",
       "object collaboration design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "The Test Bus Imperative",
+    "author": "Robert Martin",
+    "link": "https://martinfowler.com/ieeeSoftware/testBus.pdf",
+    "date": "2005-07-01T00:00:00Z",
+    "tags": [
+      "ieeesoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2035,16 +2045,6 @@
     "date": "2005-07-01T00:00:00Z",
     "tags": [
       "application integration"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "The Test Bus Imperative",
-    "author": "Robert Martin",
-    "link": "https://martinfowler.com/ieeeSoftware/testBus.pdf",
-    "date": "2005-07-01T00:00:00Z",
-    "tags": [
-      "ieeeSoftware"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2080,16 +2080,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Refactoring Photran",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/RefactoringPhotran.html",
-    "date": "2005-08-24T00:00:00Z",
-    "tags": [
-      "refactoring"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Open Space",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/OpenSpace.html",
@@ -2097,6 +2087,16 @@
     "tags": [
       "conferences",
       "collaboration"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Refactoring Photran",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/RefactoringPhotran.html",
+    "date": "2005-08-24T00:00:00Z",
+    "tags": [
+      "refactoring"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2117,7 +2117,7 @@
     "link": "https://martinfowler.com/ieeeSoftware/enterpriseArchitects.pdf",
     "date": "2005-09-01T00:00:00Z",
     "tags": [
-      "ieeeSoftware",
+      "ieeesoftware",
       "enterprise architecture"
     ],
     "site": "https://martinfowler.com"
@@ -2175,9 +2175,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "JAOO 2005",
+    "description": "OOPSLA 2005",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/JAOO2005.html",
+    "link": "https://martinfowler.com/bliki/OOPSLA2005.html",
     "date": "2005-10-24T00:00:00Z",
     "tags": [
       "conferences"
@@ -2185,9 +2185,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "OOPSLA 2005",
+    "description": "JAOO 2005",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/OOPSLA2005.html",
+    "link": "https://martinfowler.com/bliki/JAOO2005.html",
     "date": "2005-10-24T00:00:00Z",
     "tags": [
       "conferences"
@@ -2227,23 +2227,23 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Command Query Separation",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/CommandQuerySeparation.html",
-    "date": "2005-12-05T00:00:00Z",
-    "tags": [
-      "API design",
-      "programming style"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Humane Interface",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/HumaneInterface.html",
     "date": "2005-12-05T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Command Query Separation",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/CommandQuerySeparation.html",
+    "date": "2005-12-05T00:00:00Z",
+    "tags": [
+      "api design",
+      "programming style"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2280,6 +2280,17 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Fluent Interface",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/FluentInterface.html",
+    "date": "2005-12-20T00:00:00Z",
+    "tags": [
+      "api design",
+      "domain specific language"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Travel Clothing",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/TravelClothing.html",
@@ -2290,23 +2301,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Fluent Interface",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/FluentInterface.html",
-    "date": "2005-12-20T00:00:00Z",
-    "tags": [
-      "API design",
-      "domain specific language"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Duck Interface",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/DuckInterface.html",
     "date": "2005-12-21T00:00:00Z",
     "tags": [
-      "API design",
+      "api design",
       "ruby"
     ],
     "site": "https://martinfowler.com"
@@ -2338,17 +2338,7 @@
     "link": "https://martinfowler.com/bliki/ImplicitInterfaceImplementation.html",
     "date": "2006-01-04T00:00:00Z",
     "tags": [
-      "API design"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Test Invariant",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/TestInvariant.html",
-    "date": "2006-01-05T00:00:00Z",
-    "tags": [
-      "testing"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2359,6 +2349,16 @@
     "date": "2006-01-05T00:00:00Z",
     "tags": [
       "encapsulation"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Test Invariant",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/TestInvariant.html",
+    "date": "2006-01-05T00:00:00Z",
+    "tags": [
+      "testing"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2398,7 +2398,7 @@
     "link": "https://martinfowler.com/eaaDev/EventNarrative.html",
     "date": "2006-01-25T00:00:00Z",
     "tags": [
-      "application architecture"
+      "event architectures"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2408,7 +2408,17 @@
     "link": "https://martinfowler.com/eaaDev/EventNarrative.html",
     "date": "2006-01-25T00:00:00Z",
     "tags": [
-      "event architectures"
+      "application architecture"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Constructor Initialization",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/ConstructorInitialization.html",
+    "date": "2006-02-07T00:00:00Z",
+    "tags": [
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2420,16 +2430,6 @@
     "tags": [
       "writing",
       "presentation technique"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Constructor Initialization",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/ConstructorInitialization.html",
-    "date": "2006-02-07T00:00:00Z",
-    "tags": [
-      "API design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2452,7 +2452,7 @@
     "date": "2006-02-22T00:00:00Z",
     "tags": [
       "encapsulation",
-      "API design",
+      "api design",
       "object collaboration design"
     ],
     "site": "https://martinfowler.com"
@@ -2503,16 +2503,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Flooded",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/Flooded.html",
-    "date": "2006-05-15T00:00:00Z",
-    "tags": [
-      "domestic"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Shifting To Code Ownership",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/ShiftingToCodeOwnership.html",
@@ -2520,6 +2510,16 @@
     "tags": [
       "agile adoption",
       "team organization"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Flooded",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/Flooded.html",
+    "date": "2006-05-15T00:00:00Z",
+    "tags": [
+      "domestic"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2555,22 +2555,22 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Ruby Ploticus",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/RubyPloticus.html",
-    "date": "2006-06-19T00:00:00Z",
-    "tags": [
-      "ruby"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Wikipedia Death",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/WikipediaDeath.html",
     "date": "2006-06-19T00:00:00Z",
     "tags": [
       "internet culture"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Ruby Ploticus",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/RubyPloticus.html",
+    "date": "2006-06-19T00:00:00Z",
+    "tags": [
+      "ruby"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2608,6 +2608,17 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Organizing Presentation Logic",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/eaaDev/OrganizingPresentations.html",
+    "date": "2006-07-11T00:00:00Z",
+    "tags": [
+      "application architecture",
+      "front-end"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Enterprise Rails",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/EnterpriseRails.html",
@@ -2618,13 +2629,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Organizing Presentation Logic",
+    "description": "Using an Agile Software Process with Offshore\nDevelopment",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/eaaDev/OrganizingPresentations.html",
-    "date": "2006-07-11T00:00:00Z",
+    "link": "https://martinfowler.com/articles/agileOffshore.html",
+    "date": "2006-07-18T00:00:00Z",
     "tags": [
-      "application architecture",
-      "front-end"
+      "agile"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2641,16 +2651,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Using an Agile Software Process with Offshore\nDevelopment",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/articles/agileOffshore.html",
-    "date": "2006-07-18T00:00:00Z",
-    "tags": [
-      "agile"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Customer Affinity",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/CustomerAffinity.html",
@@ -2663,22 +2663,22 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Dsl Boundary",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/DslBoundary.html",
-    "date": "2006-08-01T00:00:00Z",
-    "tags": [
-      "domain specific language"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Writing Software Patterns",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/writingPatterns.html",
     "date": "2006-08-01T00:00:00Z",
     "tags": [
       "writing"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Dsl Boundary",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/DslBoundary.html",
+    "date": "2006-08-01T00:00:00Z",
+    "tags": [
+      "domain specific language"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2730,7 +2730,7 @@
     "date": "2006-10-06T00:00:00Z",
     "tags": [
       "encapsulation",
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2745,22 +2745,22 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Object Mother",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/ObjectMother.html",
-    "date": "2006-10-24T00:00:00Z",
-    "tags": [
-      "testing"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Internal Dsl Style",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/InternalDslStyle.html",
     "date": "2006-10-24T00:00:00Z",
     "tags": [
       "domain specific language"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Object Mother",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/ObjectMother.html",
+    "date": "2006-10-24T00:00:00Z",
+    "tags": [
+      "testing"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2777,6 +2777,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Ubiquitous Language",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/UbiquitousLanguage.html",
+    "date": "2006-10-31T00:00:00Z",
+    "tags": [
+      "domain driven design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Pair Programming Misconceptions",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/PairProgrammingMisconceptions.html",
@@ -2787,16 +2797,6 @@
       "team organization",
       "extreme programming",
       "collaboration"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Ubiquitous Language",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/UbiquitousLanguage.html",
-    "date": "2006-10-31T00:00:00Z",
-    "tags": [
-      "domain driven design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2824,22 +2824,22 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Web2.0",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/Web2.0.html",
-    "date": "2006-12-14T00:00:00Z",
-    "tags": [
-      "web development"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Semantic Diffusion",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/SemanticDiffusion.html",
     "date": "2006-12-14T00:00:00Z",
     "tags": [
       "agile adoption"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Web2.0",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/Web2.0.html",
+    "date": "2006-12-14T00:00:00Z",
+    "tags": [
+      "web development"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2871,7 +2871,7 @@
     "link": "https://martinfowler.com/bliki/RoleInterface.html",
     "date": "2006-12-22T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -2938,17 +2938,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "The Yawning Crevasse of Doom",
-    "author": "Daniel Terhorst-North and Martin Fowler",
-    "link": "https://martinfowler.comhttp://www.infoq.com/news/2008/08/Fowler-North-Crevasse-of-Doom",
-    "date": "2007-03-01T00:00:00Z",
-    "tags": [
-      "agile",
-      "talk videos"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Modifiability: Or is there Design in Agility",
     "author": "Ian Cartwright, Erik Doernenberg, Dave Farley, Fred\n    George, and Daniel Terhorst-North hosted Martin Fowler",
     "link": "https://martinfowler.comhttp://www.infoq.com/presentations/modifiability-fowler",
@@ -2956,6 +2945,17 @@
     "tags": [
       "design",
       "conference panels"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "The Yawning Crevasse of Doom",
+    "author": "Daniel Terhorst-North and Martin Fowler",
+    "link": "https://martinfowler.comhttp://www.infoq.com/news/2008/08/Fowler-North-Crevasse-of-Doom",
+    "date": "2007-03-01T00:00:00Z",
+    "tags": [
+      "agile",
+      "talk videos"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3023,12 +3023,13 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Output Build Target",
+    "description": "Pending Head",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/OutputBuildTarget.html",
+    "link": "https://martinfowler.com/bliki/PendingHead.html",
     "date": "2007-04-26T00:00:00Z",
     "tags": [
-      "build scripting"
+      "continuous delivery",
+      "version control"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3043,13 +3044,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Pending Head",
+    "description": "Output Build Target",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/PendingHead.html",
+    "link": "https://martinfowler.com/bliki/OutputBuildTarget.html",
     "date": "2007-04-26T00:00:00Z",
     "tags": [
-      "continuous delivery",
-      "version control"
+      "build scripting"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3389,6 +3389,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "DSL Q \u0026 A",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/DslQandA.html",
+    "date": "2008-09-09T00:00:00Z",
+    "tags": [
+      "domain specific language"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Language Workbench",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/LanguageWorkbench.html",
@@ -3396,16 +3406,6 @@
     "tags": [
       "domain specific language",
       "language workbench"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "DSL Q \u0026 A",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/DslQandA.html",
-    "date": "2008-09-09T00:00:00Z",
-    "tags": [
-      "domain specific language"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3501,7 +3501,7 @@
     "date": "2008-11-24T00:00:00Z",
     "tags": [
       "database",
-      "noSQL"
+      "nosql"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3564,7 +3564,7 @@
     "link": "https://martinfowler.com/bliki/RulesEngine.html",
     "date": "2009-01-07T00:00:00Z",
     "tags": [
-      "API design",
+      "api design",
       "domain specific language"
     ],
     "site": "https://martinfowler.com"
@@ -3615,17 +3615,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Democratic Political Technology Revolution",
-    "author": "Zack Exley and Martin Fowler",
-    "link": "https://martinfowler.comhttp://www.infoq.com/presentations/fowlere-xley-democratic-political-technology",
-    "date": "2009-03-01T00:00:00Z",
-    "tags": [
-      "talk videos",
-      "experience reports"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Three Years of Real-World Ruby",
     "author": "Martin Fowler",
     "link": "https://martinfowler.comhttp://www.infoq.com/presentations/fowler-ruby",
@@ -3633,6 +3622,17 @@
     "tags": [
       "talk videos",
       "ruby"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Democratic Political Technology Revolution",
+    "author": "Zack Exley and Martin Fowler",
+    "link": "https://martinfowler.comhttp://www.infoq.com/presentations/fowlere-xley-democratic-political-technology",
+    "date": "2009-03-01T00:00:00Z",
+    "tags": [
+      "talk videos",
+      "experience reports"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3798,7 +3798,7 @@
     "link": "https://martinfowler.com/bliki/TwoHardThings.html",
     "date": "2009-07-14T00:00:00Z",
     "tags": [
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -3961,17 +3961,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Pourquoi, pas comment",
-    "author": "Neal Ford and Martin Fowler",
-    "link": "https://martinfowler.comhttp://www.universite-du-si.com/en/conferences/6/sessions/909",
-    "date": "2010-06-01T00:00:00Z",
-    "tags": [
-      "agile",
-      "talk videos"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Agile Brazil Interview",
     "author": "Paulo Caroli and Martin Fowler",
     "link": "https://martinfowler.comhttp://www.infoq.com/interviews/fowler-caroli-continuous-deployment",
@@ -3979,6 +3968,17 @@
     "tags": [
       "agile",
       "interviews"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Pourquoi, pas comment",
+    "author": "Neal Ford and Martin Fowler",
+    "link": "https://martinfowler.comhttp://www.universite-du-si.com/en/conferences/6/sessions/909",
+    "date": "2010-06-01T00:00:00Z",
+    "tags": [
+      "agile",
+      "talk videos"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4144,9 +4144,17 @@
   },
   {
     "description": "What Software Craftsmanship is about",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/01/17/software-craftsmanship-is-about.html",
     "date": "2011-01-17T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "Bringing Balance to the Force",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2011/01/19/individuals-and-interactions.html",
+    "date": "2011-01-19T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
@@ -4161,14 +4169,6 @@
       "process theory"
     ],
     "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Bringing Balance to the Force",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2011/01/19/individuals-and-interactions.html",
-    "date": "2011-01-19T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Subcutaneous Test",
@@ -4234,6 +4234,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Savannah Charleston",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/SavannahCharleston.html",
+    "date": "2011-04-14T00:00:00Z",
+    "tags": [
+      "travel"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Eradicating Non-Determinism in Tests",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/nonDeterminism.html",
@@ -4245,16 +4255,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Savannah Charleston",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/SavannahCharleston.html",
-    "date": "2011-04-14T00:00:00Z",
-    "tags": [
-      "travel"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Uniform Access Principle",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/UniformAccessPrinciple.html",
@@ -4262,7 +4262,7 @@
     "tags": [
       "encapsulation",
       "language feature",
-      "API design",
+      "api design",
       "object collaboration design"
     ],
     "site": "https://martinfowler.com"
@@ -4378,7 +4378,7 @@
     "date": "2011-06-23T00:00:00Z",
     "tags": [
       "bad things",
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4414,6 +4414,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Canon70-300",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/Canon70-300.html",
+    "date": "2011-07-11T00:00:00Z",
+    "tags": [
+      "photography"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Social Networks",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/SocialNetworks.html",
@@ -4421,16 +4431,6 @@
     "tags": [
       "writing",
       "internet culture"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Canon70-300",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/Canon70-300.html",
-    "date": "2011-07-11T00:00:00Z",
-    "tags": [
-      "photography"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4465,7 +4465,7 @@
     "tags": [
       "domain driven design",
       "application architecture",
-      "API design",
+      "api design",
       "event architectures"
     ],
     "site": "https://martinfowler.com"
@@ -4490,17 +4490,7 @@
     "date": "2011-08-02T00:00:00Z",
     "tags": [
       "bad things",
-      "API design"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Podcasts",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/Podcasts.html",
-    "date": "2011-08-04T00:00:00Z",
-    "tags": [
-      "diversions"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4513,6 +4503,16 @@
       "continuous delivery",
       "bad things",
       "version control"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Podcasts",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/Podcasts.html",
+    "date": "2011-08-04T00:00:00Z",
+    "tags": [
+      "diversions"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4572,7 +4572,7 @@
   },
   {
     "description": "Screaming Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html",
     "date": "2011-09-30T00:00:00Z",
     "tags": null,
@@ -4580,7 +4580,7 @@
   },
   {
     "description": "Simple Hickey",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/10/20/Simple-Hickey.html",
     "date": "2011-10-20T00:00:00Z",
     "tags": null,
@@ -4610,7 +4610,7 @@
   },
   {
     "description": "Double Entry Bookkeeping Dilemma. Should I Invest or Not?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/11/06/Double-Entry-Bookkeeping-Dilemma-Should-I-Invest-or-Not.html",
     "date": "2011-11-06T00:00:00Z",
     "tags": null,
@@ -4635,14 +4635,14 @@
     "date": "2011-11-16T00:00:00Z",
     "tags": [
       "database",
-      "noSQL",
+      "nosql",
       "application architecture"
     ],
     "site": "https://martinfowler.com"
   },
   {
     "description": "Clean Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html",
     "date": "2011-11-22T00:00:00Z",
     "tags": null,
@@ -4672,7 +4672,7 @@
   },
   {
     "description": "The Barbarians are at the Gates",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2011/12/11/The-Barbarians-are-at-the-Gates.html",
     "date": "2011-12-11T00:00:00Z",
     "tags": null,
@@ -4706,7 +4706,7 @@
     "date": "2012-01-09T00:00:00Z",
     "tags": [
       "database",
-      "noSQL"
+      "nosql"
     ],
     "site": "https://martinfowler.com"
   },
@@ -4724,7 +4724,7 @@
   },
   {
     "description": "Flipping the Bit",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/01/11/Flipping-the-Bit.html",
     "date": "2012-01-11T00:00:00Z",
     "tags": null,
@@ -4732,7 +4732,7 @@
   },
   {
     "description": "The Letter",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/01/12/The-Letter.html",
     "date": "2012-01-12T00:00:00Z",
     "tags": null,
@@ -4745,13 +4745,13 @@
     "date": "2012-01-19T00:00:00Z",
     "tags": [
       "database",
-      "noSQL"
+      "nosql"
     ],
     "site": "https://martinfowler.com"
   },
   {
     "description": "Fecophiles",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/01/20/Fecophiles.html",
     "date": "2012-01-20T00:00:00Z",
     "tags": null,
@@ -4783,7 +4783,7 @@
   },
   {
     "description": "The Ruby Colored Box",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/01/31/The-Ruby-Colored-Box.html",
     "date": "2012-01-31T00:00:00Z",
     "tags": null,
@@ -4791,7 +4791,7 @@
   },
   {
     "description": "Service Oriented Agony",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/02/01/Service-Oriented-Agony.html",
     "date": "2012-02-01T00:00:00Z",
     "tags": null,
@@ -4804,7 +4804,7 @@
     "date": "2012-02-07T00:00:00Z",
     "tags": [
       "database",
-      "noSQL",
+      "nosql",
       "infodecks"
     ],
     "site": "https://martinfowler.com"
@@ -4831,14 +4831,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "After the Disaster",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2012/04/18/After-The-Disaster.html",
-    "date": "2012-04-18T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "The Evolving Panorama of Data",
     "author": "Rebecca Parsons and Martin Fowler",
     "link": "https://martinfowler.comhttp://www.infoq.com/presentations/The-Evolving-Panorama-of-Data",
@@ -4846,14 +4838,22 @@
     "tags": [
       "talk videos",
       "database",
-      "noSQL",
+      "nosql",
       "data analytics"
     ],
     "site": "https://martinfowler.com"
   },
   {
+    "description": "After the Disaster",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2012/04/18/After-The-Disaster.html",
+    "date": "2012-04-18T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "Why is Estimating so Hard?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html",
     "date": "2012-04-20T00:00:00Z",
     "tags": null,
@@ -4892,7 +4892,7 @@
   },
   {
     "description": "NO DB",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/05/15/NODB.html",
     "date": "2012-05-15T00:00:00Z",
     "tags": null,
@@ -4931,16 +4931,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Phoenix Server",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/PhoenixServer.html",
-    "date": "2012-07-10T00:00:00Z",
-    "tags": [
-      "continuous delivery"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Snowflake Server",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/SnowflakeServer.html",
@@ -4952,8 +4942,18 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Phoenix Server",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/PhoenixServer.html",
+    "date": "2012-07-10T00:00:00Z",
+    "tags": [
+      "continuous delivery"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "The Clean Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html",
     "date": "2012-08-13T00:00:00Z",
     "tags": null,
@@ -4973,7 +4973,7 @@
   },
   {
     "description": "Functional Programming for the Object Oriented Programmer",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/08/24/functional-programming-for-the-object-oriented-programmer.html",
     "date": "2012-08-24T00:00:00Z",
     "tags": null,
@@ -4991,7 +4991,7 @@
   },
   {
     "description": "The New CTO",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/09/06/I-am-Your-New-CTO.html",
     "date": "2012-09-06T00:00:00Z",
     "tags": null,
@@ -5013,7 +5013,7 @@
     "link": "https://martinfowler.com/articles/nosqlKeyPoints.html",
     "date": "2012-09-12T00:00:00Z",
     "tags": [
-      "noSQL"
+      "nosql"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5024,7 +5024,7 @@
     "date": "2012-10-01T00:00:00Z",
     "tags": [
       "conference panels",
-      "noSQL"
+      "nosql"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5036,7 +5036,7 @@
     "tags": [
       "talk videos",
       "database",
-      "noSQL",
+      "nosql",
       "data analytics"
     ],
     "site": "https://martinfowler.com"
@@ -5109,7 +5109,7 @@
   },
   {
     "description": "Three Paradigms",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/12/19/Three-Paradigms.html",
     "date": "2012-12-19T00:00:00Z",
     "tags": null,
@@ -5117,7 +5117,7 @@
   },
   {
     "description": "FP Basics E1",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/12/22/FPBE1-Whats-it-all-about.html",
     "date": "2012-12-22T00:00:00Z",
     "tags": null,
@@ -5125,7 +5125,7 @@
   },
   {
     "description": "Brave New Year",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2012/12/29/Brave-New-Year.html",
     "date": "2012-12-29T00:00:00Z",
     "tags": null,
@@ -5133,17 +5133,9 @@
   },
   {
     "description": "FP Basics E2",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/01/02/FPBE2-Whys-it-called-functional.html",
     "date": "2013-01-02T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "FP Basics E3",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html",
-    "date": "2013-01-07T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
@@ -5155,11 +5147,19 @@
     "tags": [
       "application integration",
       "database",
-      "noSQL",
+      "nosql",
       "evolutionary design",
       "infodecks"
     ],
     "site": "https://martinfowler.com"
+  },
+  {
+    "description": "FP Basics E3",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2013/01/07/FPBE3-Do-the-rules-change.html",
+    "date": "2013-01-07T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Internal Reprogrammability",
@@ -5173,6 +5173,14 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "FP Basics E4",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html",
+    "date": "2013-01-29T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "Thinking about Big Data",
     "author": "Martin\n    Fowler",
     "link": "https://martinfowler.com/articles/bigData",
@@ -5184,16 +5192,8 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "FP Basics E4",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2013/01/29/FPBE4-Lazy-Evaluation.html",
-    "date": "2013-01-29T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "The Laborer and the Craftsman",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/01/30/The-Craftsman-And-The-Laborer.html",
     "date": "2013-01-30T00:00:00Z",
     "tags": null,
@@ -5211,7 +5211,7 @@
   },
   {
     "description": "The Humble Craftsman",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/02/01/The-Humble-Craftsman.html",
     "date": "2013-02-01T00:00:00Z",
     "tags": null,
@@ -5219,7 +5219,7 @@
   },
   {
     "description": "The Principles of Craftsmanship",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/02/10/ThePrinciplesOfCraftsmanship.html",
     "date": "2013-02-10T00:00:00Z",
     "tags": null,
@@ -5248,16 +5248,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Talks on schemalessness,  consistency in NoSQL, and economics\n  of software design",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.comhttp://www.youtube.com/watch?v=8kotnF6hfd8",
-    "date": "2013-02-19T00:00:00Z",
-    "tags": [
-      "talk videos"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "An Appropriate Use of Metrics",
     "author": "Patrick Kua",
     "link": "https://martinfowler.com/articles/useOfMetrics.html",
@@ -5271,13 +5261,23 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Talks on schemalessness,  consistency in NoSQL, and economics\n  of software design",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.comhttp://www.youtube.com/watch?v=8kotnF6hfd8",
+    "date": "2013-02-19T00:00:00Z",
+    "tags": [
+      "talk videos"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "No DBA",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/NoDBA.html",
     "date": "2013-02-25T00:00:00Z",
     "tags": [
       "database",
-      "noSQL",
+      "nosql",
       "evolutionary design"
     ],
     "site": "https://martinfowler.com"
@@ -5296,7 +5296,7 @@
   },
   {
     "description": "The Start-Up Trap",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/03/05/TheStartUpTrap.html",
     "date": "2013-03-05T00:00:00Z",
     "tags": null,
@@ -5304,7 +5304,7 @@
   },
   {
     "description": "The Pragmatics of TDD",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/03/06/ThePragmaticsOfTDD.html",
     "date": "2013-03-06T00:00:00Z",
     "tags": null,
@@ -5312,7 +5312,7 @@
   },
   {
     "description": "An Open and Closed Case",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/03/08/AnOpenAndClosedCase.html",
     "date": "2013-03-08T00:00:00Z",
     "tags": null,
@@ -5320,7 +5320,7 @@
   },
   {
     "description": "The Frenzied Panic of Rushing",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/03/11/TheFrenziedPanicOfRushing.html",
     "date": "2013-03-11T00:00:00Z",
     "tags": null,
@@ -5341,19 +5341,19 @@
   },
   {
     "description": "There are Ladies Present",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/03/22/There-are-ladies-present.html",
     "date": "2013-03-22T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
   {
-    "description": "Broad Stack Test",
+    "description": "Javascript Promise",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/BroadStackTest.html",
+    "link": "https://martinfowler.com/bliki/JavascriptPromise.html",
     "date": "2013-04-22T00:00:00Z",
     "tags": [
-      "test categories"
+      "language feature"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5379,12 +5379,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Javascript Promise",
+    "description": "Broad Stack Test",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/JavascriptPromise.html",
+    "link": "https://martinfowler.com/bliki/BroadStackTest.html",
     "date": "2013-04-22T00:00:00Z",
     "tags": [
-      "language feature"
+      "test categories"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5400,9 +5400,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "User Journey Test",
+    "description": "Business Facing Test",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/UserJourneyTest.html",
+    "link": "https://martinfowler.com/bliki/BusinessFacingTest.html",
     "date": "2013-04-24T00:00:00Z",
     "tags": [
       "test categories"
@@ -5410,9 +5410,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Business Facing Test",
+    "description": "User Journey Test",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/BusinessFacingTest.html",
+    "link": "https://martinfowler.com/bliki/UserJourneyTest.html",
     "date": "2013-04-24T00:00:00Z",
     "tags": [
       "test categories"
@@ -5464,33 +5464,33 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "The Transformation Priority Premise",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html",
-    "date": "2013-05-27T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "Flash - TPP",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/FlashTpp.html",
-    "date": "2013-05-27T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "Fib. The T-P Premise.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/FibTPP.html",
     "date": "2013-05-27T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
   {
+    "description": "Flash - TPP",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/FlashTpp.html",
+    "date": "2013-05-27T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "Transformation Priority and Sorting",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/TransformationPriorityAndSorting.html",
+    "date": "2013-05-27T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "The Transformation Priority Premise",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html",
     "date": "2013-05-27T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
@@ -5523,7 +5523,7 @@
     "link": "https://martinfowler.com/bliki/EmbeddedDocument.html",
     "date": "2013-06-04T00:00:00Z",
     "tags": [
-      "noSQL",
+      "nosql",
       "encapsulation",
       "object collaboration design"
     ],
@@ -5584,9 +5584,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Story Point",
+    "description": "Ideal Time",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/StoryPoint.html",
+    "link": "https://martinfowler.com/bliki/IdealTime.html",
     "date": "2013-07-16T00:00:00Z",
     "tags": [
       "estimation"
@@ -5604,9 +5604,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Ideal Time",
+    "description": "Story Point",
     "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/IdealTime.html",
+    "link": "https://martinfowler.com/bliki/StoryPoint.html",
     "date": "2013-07-16T00:00:00Z",
     "tags": [
       "estimation"
@@ -5621,7 +5621,7 @@
     "tags": [
       "database",
       "application architecture",
-      "API design"
+      "api design"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5684,7 +5684,7 @@
     "date": "2013-09-05T00:00:00Z",
     "tags": [
       "encapsulation",
-      "API design",
+      "api design",
       "object collaboration design"
     ],
     "site": "https://martinfowler.com"
@@ -5712,16 +5712,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Testing Asynchronous JavaScript",
-    "author": "Pete Hodgson",
-    "link": "https://martinfowler.com/articles/asyncJS.html",
-    "date": "2013-09-18T00:00:00Z",
-    "tags": [
-      "testing"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Huffpost live panel on \"The Brogrammer Effect\"",
     "author": "Martin Fowler",
     "link": "https://martinfowler.comhttp://live.huffingtonpost.com/r/segment/brogrammers-dominate-tech-and-reinforce-wage-gap/523710512b8c2a44e800084e",
@@ -5733,8 +5723,18 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Testing Asynchronous JavaScript",
+    "author": "Pete Hodgson",
+    "link": "https://martinfowler.com/articles/asyncJS.html",
+    "date": "2013-09-18T00:00:00Z",
+    "tags": [
+      "testing"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Test First",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html",
     "date": "2013-09-23T00:00:00Z",
     "tags": null,
@@ -5742,7 +5742,7 @@
   },
   {
     "description": "A.T. FAIL!",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/09/26/AT-FAIL.html",
     "date": "2013-09-26T00:00:00Z",
     "tags": null,
@@ -5750,7 +5750,7 @@
   },
   {
     "description": "Dance you Imps!",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/10/01/Dance-You-Imps.html",
     "date": "2013-10-01T00:00:00Z",
     "tags": null,
@@ -5789,7 +5789,7 @@
   },
   {
     "description": "The Careless Ones",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/10/24/The-Careless-Ones.html",
     "date": "2013-10-24T00:00:00Z",
     "tags": null,
@@ -5797,7 +5797,7 @@
   },
   {
     "description": "Healthcare.gov",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/11/12/Healthcare-gov.html",
     "date": "2013-11-12T00:00:00Z",
     "tags": null,
@@ -5817,7 +5817,7 @@
   },
   {
     "description": "Hordes Of Novices",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/11/19/HoardsOfNovices.html",
     "date": "2013-11-19T00:00:00Z",
     "tags": null,
@@ -5825,7 +5825,7 @@
   },
   {
     "description": "Novices. A Coda",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/11/25/Novices-Coda.html",
     "date": "2013-11-25T00:00:00Z",
     "tags": null,
@@ -5833,7 +5833,7 @@
   },
   {
     "description": "Extreme Programming, a Reflection",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2013/12/10/Thankyou-Kent.html",
     "date": "2013-12-10T00:00:00Z",
     "tags": null,
@@ -5915,7 +5915,7 @@
   },
   {
     "description": "Coding in the Clink (9)",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/01/20/Marion_Correctional.html",
     "date": "2014-01-20T00:00:00Z",
     "tags": null,
@@ -5923,11 +5923,23 @@
   },
   {
     "description": "The Domain Discontinuity",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/01/27/TheChickenOrTheRoad.html",
     "date": "2014-01-27T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "Workflows of Refactoring (OOP 2014)",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.comhttps://www.youtube.com/watch?v=vqEg37e4Mkw",
+    "date": "2014-02-10T00:00:00Z",
+    "tags": [
+      "agile",
+      "talk videos",
+      "refactoring"
+    ],
+    "site": "https://martinfowler.com"
   },
   {
     "description": "Not Just Code Monkeys (OOP 2014)",
@@ -5939,18 +5951,6 @@
       "talk videos",
       "technical leadership",
       "diversity"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Workflows of Refactoring (OOP 2014)",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.comhttps://www.youtube.com/watch?v=vqEg37e4Mkw",
-    "date": "2014-02-10T00:00:00Z",
-    "tags": [
-      "agile",
-      "talk videos",
-      "refactoring"
     ],
     "site": "https://martinfowler.com"
   },
@@ -5967,7 +5967,7 @@
   },
   {
     "description": "Where is the Foreman?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html",
     "date": "2014-02-21T00:00:00Z",
     "tags": null,
@@ -5975,7 +5975,7 @@
   },
   {
     "description": "Oh Foreman,  Where art Thou?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/02/23/OhForemanWhereArtThou.html",
     "date": "2014-02-23T00:00:00Z",
     "tags": null,
@@ -5983,7 +5983,7 @@
   },
   {
     "description": "A Spectrum of Trust",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/02/27/TheTrustSpectrum.html",
     "date": "2014-02-27T00:00:00Z",
     "tags": null,
@@ -6002,7 +6002,7 @@
   },
   {
     "description": "When Should You Think?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/03/11/when-to-think.html",
     "date": "2014-03-11T00:00:00Z",
     "tags": null,
@@ -6033,7 +6033,7 @@
   },
   {
     "description": "The True Corruption of Agile",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/03/28/The-Corruption-of-Agile.html",
     "date": "2014-03-28T00:00:00Z",
     "tags": null,
@@ -6052,7 +6052,7 @@
   },
   {
     "description": "Code Hoarders",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/04/03/Code-Hoarders.html",
     "date": "2014-04-03T00:00:00Z",
     "tags": null,
@@ -6070,7 +6070,7 @@
   },
   {
     "description": "Monogamous TDD",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/04/25/MonogamousTDD.html",
     "date": "2014-04-25T00:00:00Z",
     "tags": null,
@@ -6078,7 +6078,7 @@
   },
   {
     "description": "When TDD doesn't work.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/04/30/When-tdd-does-not-work.html",
     "date": "2014-04-30T00:00:00Z",
     "tags": null,
@@ -6086,7 +6086,7 @@
   },
   {
     "description": "Test Induced Design Damage?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/01/Design-Damage.html",
     "date": "2014-05-01T00:00:00Z",
     "tags": null,
@@ -6109,7 +6109,7 @@
   },
   {
     "description": "Professionalism and TDD (Reprise)",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/02/ProfessionalismAndTDD.html",
     "date": "2014-05-02T00:00:00Z",
     "tags": null,
@@ -6128,7 +6128,7 @@
   },
   {
     "description": "The Single Responsibility Principle",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html",
     "date": "2014-05-08T00:00:00Z",
     "tags": null,
@@ -6147,7 +6147,7 @@
   },
   {
     "description": "When to Mock",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/10/WhenToMock.html",
     "date": "2014-05-10T00:00:00Z",
     "tags": null,
@@ -6155,7 +6155,7 @@
   },
   {
     "description": "Framework Bound[2]",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/11/FrameworkBound.html",
     "date": "2014-05-11T00:00:00Z",
     "tags": null,
@@ -6163,7 +6163,7 @@
   },
   {
     "description": "The Open Closed Principle",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html",
     "date": "2014-05-12T00:00:00Z",
     "tags": null,
@@ -6176,14 +6176,14 @@
     "date": "2014-05-13T00:00:00Z",
     "tags": [
       "evolutionary design",
-      "API design",
+      "api design",
       "refactoring"
     ],
     "site": "https://martinfowler.com"
   },
   {
     "description": "The Little Mocker",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/14/TheLittleMocker.html",
     "date": "2014-05-14T00:00:00Z",
     "tags": null,
@@ -6191,7 +6191,7 @@
   },
   {
     "description": "First",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/05/19/First.html",
     "date": "2014-05-19T00:00:00Z",
     "tags": null,
@@ -6221,7 +6221,7 @@
   },
   {
     "description": "Is TDD Dead?Final Thoughts about Teams.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/06/17/IsTddDeadFinalThoughts.html",
     "date": "2014-06-17T00:00:00Z",
     "tags": null,
@@ -6229,7 +6229,7 @@
   },
   {
     "description": "My Lawn",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/06/20/MyLawn.html",
     "date": "2014-06-20T00:00:00Z",
     "tags": null,
@@ -6248,7 +6248,7 @@
   },
   {
     "description": "A Little About Patterns.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/06/30/ALittleAboutPatterns.html",
     "date": "2014-06-30T00:00:00Z",
     "tags": null,
@@ -6260,7 +6260,7 @@
     "link": "https://martinfowler.com/articles/distributed-objects-microservices.html",
     "date": "2014-08-13T00:00:00Z",
     "tags": [
-      "API design",
+      "api design",
       "microservices"
     ],
     "site": "https://martinfowler.com"
@@ -6311,7 +6311,7 @@
   },
   {
     "description": "Test Time",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/09/03/TestTime.html",
     "date": "2014-09-03T00:00:00Z",
     "tags": null,
@@ -6329,7 +6329,7 @@
   },
   {
     "description": "The More Things Change...",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/09/18/TheMoreThingsChange.html",
     "date": "2014-09-18T00:00:00Z",
     "tags": null,
@@ -6337,7 +6337,7 @@
   },
   {
     "description": "Microservices and Jars",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/09/19/MicroServicesAndJars.html",
     "date": "2014-09-19T00:00:00Z",
     "tags": null,
@@ -6345,7 +6345,7 @@
   },
   {
     "description": "Clean Micro-service Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/10/01/CleanMicroserviceArchitecture.html",
     "date": "2014-10-01T00:00:00Z",
     "tags": null,
@@ -6365,7 +6365,7 @@
   },
   {
     "description": "GOML-1, Responsive Design",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/10/08/GOML1-ResponsiveDesign.html",
     "date": "2014-10-08T00:00:00Z",
     "tags": null,
@@ -6418,7 +6418,7 @@
   },
   {
     "description": "Laughter in the male dominated room.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/10/26/LaughterInTheMaleDominatedRoom.html",
     "date": "2014-10-26T00:00:00Z",
     "tags": null,
@@ -6452,7 +6452,7 @@
   },
   {
     "description": "One Hacker Way!",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/11/12/PutItInProduction.html",
     "date": "2014-11-12T00:00:00Z",
     "tags": null,
@@ -6470,20 +6470,20 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "The Obligation of the Programmer.",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html",
+    "date": "2014-11-15T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "CQS with Database-Generated Ids",
     "author": "Vladimir Khorikov",
     "link": "https://enterprisecraftsmanship.com/posts/cqs-with-database-generated-ids/",
     "date": "2014-11-15T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
-  },
-  {
-    "description": "The Obligation of the Programmer.",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2014/11/15/WeRuleTheWorld.html",
-    "date": "2014-11-15T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Testing Strategies in a Microservice Architecture",
@@ -6500,7 +6500,7 @@
   },
   {
     "description": "Thorns around the Gold",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/11/19/GoingForTheGold.html",
     "date": "2014-11-19T00:00:00Z",
     "tags": null,
@@ -6516,7 +6516,7 @@
   },
   {
     "description": "OO vs FP",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/11/24/FPvsOO.html",
     "date": "2014-11-24T00:00:00Z",
     "tags": null,
@@ -6574,14 +6574,14 @@
     "link": "https://martinfowler.com/articles/copyright-api.html",
     "date": "2014-12-16T00:00:00Z",
     "tags": [
-      "API design",
+      "api design",
       "legal"
     ],
     "site": "https://martinfowler.com"
   },
   {
     "description": "The Cycles of TDD",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html",
     "date": "2014-12-17T00:00:00Z",
     "tags": null,
@@ -6635,7 +6635,7 @@
   },
   {
     "description": "'Interface' Considered Harmful",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/01/08/InterfaceConsideredHarmful.html",
     "date": "2015-01-08T00:00:00Z",
     "tags": null,
@@ -6745,7 +6745,7 @@
   },
   {
     "description": "They Called them Computers.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/02/19/ComputerHarem.html",
     "date": "2015-02-19T00:00:00Z",
     "tags": null,
@@ -6753,7 +6753,7 @@
   },
   {
     "description": "The MODE-B Imperative",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/02/21/ModeBImperative.html",
     "date": "2015-02-21T00:00:00Z",
     "tags": null,
@@ -6768,6 +6768,14 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
+    "description": "Functional C#: Immutability",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/functional-c-immutability/",
+    "date": "2015-03-02T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Beck Design Rules",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/BeckDesignRules.html",
@@ -6778,14 +6786,6 @@
       "refactoring"
     ],
     "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Functional C#: Immutability",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/functional-c-immutability/",
-    "date": "2015-03-02T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Functional C#: Primitive obsession",
@@ -6837,7 +6837,7 @@
   },
   {
     "description": "Does Organization Matter?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/04/15/DoesOrganizationMatter.html",
     "date": "2015-04-15T00:00:00Z",
     "tags": null,
@@ -6861,7 +6861,7 @@
   },
   {
     "description": "Language Layers",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/04/27/LanguageLayers.html",
     "date": "2015-04-27T00:00:00Z",
     "tags": null,
@@ -6916,7 +6916,7 @@
   },
   {
     "description": "The First Micro-service Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html",
     "date": "2015-05-28T00:00:00Z",
     "tags": null,
@@ -7010,7 +7010,7 @@
     "date": "2015-06-25T00:00:00Z",
     "tags": [
       "object collaboration design",
-      "API design",
+      "api design",
       "ruby",
       "language feature"
     ],
@@ -7025,6 +7025,14 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
+    "description": "The Little Singleton",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html",
+    "date": "2015-07-01T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "Microservice Trade-Offs",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/microservice-trade-offs.html",
@@ -7035,16 +7043,8 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "The Little Singleton",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2015/07/01/TheLittleSingleton.html",
-    "date": "2015-07-01T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "Pattern Pushers",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/07/05/PatternPushers.html",
     "date": "2015-07-05T00:00:00Z",
     "tags": null,
@@ -7116,7 +7116,7 @@
   },
   {
     "description": "Make the Magic go away.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html",
     "date": "2015-08-06T00:00:00Z",
     "tags": null,
@@ -7127,14 +7127,6 @@
     "author": "Vladimir Khorikov",
     "link": "https://enterprisecraftsmanship.com/posts/database-versioning-best-practices/",
     "date": "2015-08-10T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
-    "description": "State vs migration-driven database delivery",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/state-vs-migration-driven-database-delivery/",
-    "date": "2015-08-18T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
   },
@@ -7151,6 +7143,14 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "State vs migration-driven database delivery",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/state-vs-migration-driven-database-delivery/",
+    "date": "2015-08-18T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Anti Pattern",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/AntiPattern.html",
@@ -7160,14 +7160,6 @@
       "writing"
     ],
     "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Database versioning tools",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/database-versioning-tools/",
-    "date": "2015-08-26T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Presentation Domain Data Layering",
@@ -7182,6 +7174,14 @@
       "web development"
     ],
     "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Database versioning tools",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/database-versioning-tools/",
+    "date": "2015-08-26T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Cohesion and Coupling: the difference",
@@ -7237,7 +7237,7 @@
   },
   {
     "description": "A Little Structure",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/09/23/ALittleStructure.html",
     "date": "2015-09-23T00:00:00Z",
     "tags": null,
@@ -7253,7 +7253,7 @@
   },
   {
     "description": "WATS Line 54",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/10/05/WattsLine54.html",
     "date": "2015-10-05T00:00:00Z",
     "tags": null,
@@ -7273,7 +7273,7 @@
     "link": "https://martinfowler.com/bliki/RequiredInterface.html",
     "date": "2015-10-12T00:00:00Z",
     "tags": [
-      "API design",
+      "api design",
       "object collaboration design"
     ],
     "site": "https://martinfowler.com"
@@ -7293,14 +7293,14 @@
     "date": "2015-10-13T00:00:00Z",
     "tags": [
       "refactoring",
-      "API design",
+      "api design",
       "application architecture"
     ],
     "site": "https://martinfowler.com"
   },
   {
     "description": "VW",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/10/14/VW.html",
     "date": "2015-10-14T00:00:00Z",
     "tags": null,
@@ -7308,19 +7308,11 @@
   },
   {
     "description": "Agile is not now, nor was it ever, Waterfall.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/10/16/Agile-And-Waterfall.html",
     "date": "2015-10-16T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "Stages of competence: 2 ways of learning",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/stages-of-competence-2-ways-of-learning/",
-    "date": "2015-10-19T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Remote versus Co-located Work",
@@ -7338,8 +7330,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "Stages of competence: 2 ways of learning",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/stages-of-competence-2-ways-of-learning/",
+    "date": "2015-10-19T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Future Proof",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/10/30/FutureProof.html",
     "date": "2015-10-30T00:00:00Z",
     "tags": null,
@@ -7347,7 +7347,7 @@
   },
   {
     "description": "The Force of Pliers",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/11/01/PlierForce.html",
     "date": "2015-11-01T00:00:00Z",
     "tags": null,
@@ -7371,7 +7371,7 @@
   },
   {
     "description": "The Programmer's Oath",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html",
     "date": "2015-11-18T00:00:00Z",
     "tags": null,
@@ -7398,19 +7398,11 @@
   },
   {
     "description": "Prelude to a Profession",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2015/11/27/OathDiscussion.html",
     "date": "2015-11-27T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "Do you need an ORM?",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/",
-    "date": "2015-11-30T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "The Role of an Enterprise Architect in a Lean\n  Enterprise",
@@ -7424,6 +7416,14 @@
       "lean"
     ],
     "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Do you need an ORM?",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/do-you-need-an-orm/",
+    "date": "2015-11-30T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "List And Hash",
@@ -7481,7 +7481,7 @@
   },
   {
     "description": "A Little Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/01/04/ALittleArchitecture.html",
     "date": "2016-01-04T00:00:00Z",
     "tags": null,
@@ -7497,7 +7497,7 @@
   },
   {
     "description": "Stabilization Phases",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/01/14/Stabilization.html",
     "date": "2016-01-14T00:00:00Z",
     "tags": null,
@@ -7505,7 +7505,7 @@
   },
   {
     "description": "Manhandled",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/01/15/Manhandled.html",
     "date": "2016-01-15T00:00:00Z",
     "tags": null,
@@ -7606,7 +7606,7 @@
   },
   {
     "description": "Giving Up on TDD",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/03/19/GivingUpOnTDD.html",
     "date": "2016-03-19T00:00:00Z",
     "tags": null,
@@ -7664,14 +7664,6 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
-    "description": "Type Wars",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
-    "date": "2016-05-01T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "Evolutionary Database Design",
     "author": "Pramod Sadalage and Martin Fowler",
     "link": "https://martinfowler.com/articles/evodb.html",
@@ -7684,6 +7676,14 @@
       "evolutionary design"
     ],
     "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Type Wars",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
+    "date": "2016-05-01T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Singleton vs Dependency Injection",
@@ -7712,26 +7712,18 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "7 notable NDC London 2016 talks",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/7-notable-ndc-london-2016-talks/",
-    "date": "2016-05-21T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
     "description": "Blue. No! Yellow!",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/05/21/BlueNoYellow.html",
     "date": "2016-05-21T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
   {
-    "description": "Unit tests value proposition",
+    "description": "7 notable NDC London 2016 talks",
     "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/unit-test-value-proposition/",
-    "date": "2016-06-01T00:00:00Z",
+    "link": "https://enterprisecraftsmanship.com/posts/7-notable-ndc-london-2016-talks/",
+    "date": "2016-05-21T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
   },
@@ -7758,14 +7750,12 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Business Capability Centric",
-    "author": "Sriram Narayan",
-    "link": "https://martinfowler.com/bliki/BusinessCapabilityCentric.html",
-    "date": "2016-06-08T00:00:00Z",
-    "tags": [
-      "team organization"
-    ],
-    "site": "https://martinfowler.com"
+    "description": "Unit tests value proposition",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/unit-test-value-proposition/",
+    "date": "2016-06-01T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Database Delivery Best Practices Pluralsight course",
@@ -7774,6 +7764,16 @@
     "date": "2016-06-08T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
+  },
+  {
+    "description": "Business Capability Centric",
+    "author": "Sriram Narayan",
+    "link": "https://martinfowler.com/bliki/BusinessCapabilityCentric.html",
+    "date": "2016-06-08T00:00:00Z",
+    "tags": [
+      "team organization"
+    ],
+    "site": "https://martinfowler.com"
   },
   {
     "description": "Styles of unit testing",
@@ -7785,7 +7785,7 @@
   },
   {
     "description": "Mutation Testing",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/06/10/MutationTesting.html",
     "date": "2016-06-10T00:00:00Z",
     "tags": null,
@@ -7874,20 +7874,20 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
+    "description": "The Churn",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html",
+    "date": "2016-07-27T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
     "description": "What is an implementation detail?",
     "author": "Vladimir Khorikov",
     "link": "https://enterprisecraftsmanship.com/posts/what-is-implementation-detail/",
     "date": "2016-07-27T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
-  },
-  {
-    "description": "The Churn",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2016/07/27/TheChurn.html",
-    "date": "2016-07-27T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Representing a collection as a Value Object",
@@ -7915,7 +7915,7 @@
   },
   {
     "description": "The Lurn",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/09/01/TheLurn.html",
     "date": "2016-09-01T00:00:00Z",
     "tags": null,
@@ -7987,7 +7987,7 @@
   },
   {
     "description": "Dijkstra's Algorithm",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/10/26/DijkstrasAlg.html",
     "date": "2016-10-26T00:00:00Z",
     "tags": null,
@@ -8003,21 +8003,11 @@
   },
   {
     "description": "TDD Doesn't Work",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2016/11/10/TDD-Doesnt-work.html",
     "date": "2016-11-10T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "Aliasing Bug",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/AliasingBug.html",
-    "date": "2016-11-14T00:00:00Z",
-    "tags": [
-      "bad things"
-    ],
-    "site": "https://martinfowler.com"
   },
   {
     "description": "Value Object",
@@ -8026,7 +8016,17 @@
     "date": "2016-11-14T00:00:00Z",
     "tags": [
       "domain driven design",
-      "API design"
+      "api design"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Aliasing Bug",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/AliasingBug.html",
+    "date": "2016-11-14T00:00:00Z",
+    "tags": [
+      "bad things"
     ],
     "site": "https://martinfowler.com"
   },
@@ -8114,7 +8114,7 @@
   },
   {
     "description": "TDD Lesson - Terrain Generation",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/01/09/DiamondSquare.html",
     "date": "2017-01-09T00:00:00Z",
     "tags": null,
@@ -8122,7 +8122,7 @@
   },
   {
     "description": "The Dark Path",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/01/11/TheDarkPath.html",
     "date": "2017-01-11T00:00:00Z",
     "tags": null,
@@ -8130,7 +8130,7 @@
   },
   {
     "description": "Types and Tests",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html",
     "date": "2017-01-13T00:00:00Z",
     "tags": null,
@@ -8219,7 +8219,7 @@
   },
   {
     "description": "Necessary Comments",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/02/23/NecessaryComments.html",
     "date": "2017-02-23T00:00:00Z",
     "tags": null,
@@ -8235,7 +8235,7 @@
   },
   {
     "description": "TDD Harms Architecture",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html",
     "date": "2017-03-03T00:00:00Z",
     "tags": null,
@@ -8243,7 +8243,7 @@
   },
   {
     "description": "Testing Like the TSA",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/03/06/TestingLikeTheTSA.html",
     "date": "2017-03-06T00:00:00Z",
     "tags": null,
@@ -8251,7 +8251,7 @@
   },
   {
     "description": "Symmetry Breaking",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/03/07/SymmetryBreaking.html",
     "date": "2017-03-07T00:00:00Z",
     "tags": null,
@@ -8277,7 +8277,7 @@
   },
   {
     "description": "Is Dr. Calvin in the Room?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/03/16/DrCalvin.html",
     "date": "2017-03-16T00:00:00Z",
     "tags": null,
@@ -8360,7 +8360,7 @@
   },
   {
     "description": "First-Class Tests.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.html",
     "date": "2017-05-05T00:00:00Z",
     "tags": null,
@@ -8389,14 +8389,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "IEnumerable vs IReadOnlyList",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/ienumerable-vs-ireadonlylist/",
-    "date": "2017-05-24T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
     "description": "The Architect Elevator — Visiting the upper floors",
     "author": "Gregor Hohpe",
     "link": "https://martinfowler.com/articles/architect-elevator.html",
@@ -8405,6 +8397,14 @@
       "enterprise architecture"
     ],
     "site": "https://martinfowler.com"
+  },
+  {
+    "description": "IEnumerable vs IReadOnlyList",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/ienumerable-vs-ireadonlylist/",
+    "date": "2017-05-24T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Code review: Fabric class",
@@ -8448,7 +8448,7 @@
   },
   {
     "description": "Pragmatic Functional Programming",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/07/11/PragmaticFunctionalProgramming.html",
     "date": "2017-07-11T00:00:00Z",
     "tags": null,
@@ -8464,7 +8464,7 @@
   },
   {
     "description": "Drive me to Toronto, Hal.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/07/24/DriveMeToTorontoHal.html",
     "date": "2017-07-24T00:00:00Z",
     "tags": null,
@@ -8488,7 +8488,7 @@
   },
   {
     "description": "The Brain Problem",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/07/28/TheBrainProblem.html",
     "date": "2017-07-28T00:00:00Z",
     "tags": null,
@@ -8504,7 +8504,7 @@
   },
   {
     "description": "Thought Police",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/08/09/ThoughtPolice.html",
     "date": "2017-08-09T00:00:00Z",
     "tags": null,
@@ -8512,7 +8512,7 @@
   },
   {
     "description": "On the Diminished Capacity to Discuss Things Rationally",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/08/10/OnTheInabilityToDiscussThingsRationally.html",
     "date": "2017-08-10T00:00:00Z",
     "tags": null,
@@ -8520,7 +8520,7 @@
   },
   {
     "description": "Women in Tech",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/08/14/WomenInTech.html",
     "date": "2017-08-14T00:00:00Z",
     "tags": null,
@@ -8564,7 +8564,7 @@
   },
   {
     "description": "Just Following Orders",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/08/28/JustFollowingOders.html",
     "date": "2017-08-28T00:00:00Z",
     "tags": null,
@@ -8580,7 +8580,7 @@
   },
   {
     "description": "Sierra Juliet Foxtrot",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/09/26/SierraJulietFoxtrot.html",
     "date": "2017-09-26T00:00:00Z",
     "tags": null,
@@ -8588,9 +8588,17 @@
   },
   {
     "description": "The Unscrupulous Meme",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/09/29/TheUnscrupulousMeme.html",
     "date": "2017-09-29T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "Test Contra-variance",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html",
+    "date": "2017-10-03T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
@@ -8603,16 +8611,8 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
-    "description": "Test Contra-variance",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2017/10/03/TestContravariance.html",
-    "date": "2017-10-03T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
-  },
-  {
     "description": "Tools are not the Answer",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/10/04/CodeIsNotTheAnswer.html",
     "date": "2017-10-04T00:00:00Z",
     "tags": null,
@@ -8620,7 +8620,7 @@
   },
   {
     "description": "Women In Demand",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/10/04/WomenInDemand.html",
     "date": "2017-10-04T00:00:00Z",
     "tags": null,
@@ -8677,14 +8677,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "New course: Refactoring from Anemic Domain Model Towards a Rich One",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/refactoring-from-anemic-domain-model-towards-a-rich-one/",
-    "date": "2017-11-14T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
     "description": "Machine Justification",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/MachineJustification.html",
@@ -8695,8 +8687,16 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "New course: Refactoring from Anemic Domain Model Towards a Rich One",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/refactoring-from-anemic-domain-model-towards-a-rich-one/",
+    "date": "2017-11-14T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Living on the Plateau",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/11/18/OnThePlateau.html",
     "date": "2017-11-18T00:00:00Z",
     "tags": null,
@@ -8704,7 +8704,7 @@
   },
   {
     "description": "Bobby Tables",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/12/03/BobbyTables.html",
     "date": "2017-12-03T00:00:00Z",
     "tags": null,
@@ -8720,7 +8720,7 @@
   },
   {
     "description": "Dbtails",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/12/09/Dbtails.html",
     "date": "2017-12-09T00:00:00Z",
     "tags": null,
@@ -8736,7 +8736,7 @@
   },
   {
     "description": "Excuses",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html",
     "date": "2017-12-18T00:00:00Z",
     "tags": null,
@@ -8744,11 +8744,19 @@
   },
   {
     "description": "Operating Behind the Power Curve",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/01/15/behindThePowerCurve.html",
     "date": "2018-01-15T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "To TDD or not to TDD",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/tdd-not-tdd/",
+    "date": "2018-01-16T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
   },
   {
     "description": "Integration Test",
@@ -8761,16 +8769,8 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "To TDD or not to TDD",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/tdd-not-tdd/",
-    "date": "2018-01-16T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
     "description": "The Citizenship Argument",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/01/18/TheCitizenshipArgument.html",
     "date": "2018-01-18T00:00:00Z",
     "tags": null,
@@ -8793,6 +8793,14 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
+    "description": "Value Objects and Error Messages",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/value-objects-error-messages/",
+    "date": "2018-02-20T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Products Over Projects",
     "author": "Sriram Narayan",
     "link": "https://martinfowler.com/articles/products-over-projects.html",
@@ -8804,16 +8812,8 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Value Objects and Error Messages",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/value-objects-error-messages/",
-    "date": "2018-02-20T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
-  },
-  {
     "description": "Uncle Bob Fly-In.Have I got a deal for you!",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/02/25/UncleBobFlyIn.html",
     "date": "2018-02-25T00:00:00Z",
     "tags": null,
@@ -8866,7 +8866,7 @@
   },
   {
     "description": "We Programmers",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/03/29/WeProgrammers.html",
     "date": "2018-03-29T00:00:00Z",
     "tags": null,
@@ -8874,7 +8874,7 @@
   },
   {
     "description": "In The Large",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/04/02/InTheLarge.html",
     "date": "2018-04-02T00:00:00Z",
     "tags": null,
@@ -8890,7 +8890,7 @@
   },
   {
     "description": "FP vs. OO",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/04/13/FPvsOO.html",
     "date": "2018-04-13T00:00:00Z",
     "tags": null,
@@ -8916,7 +8916,7 @@
   },
   {
     "description": "Craftsman, Craftswoman, Craftsperson",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/05/02/Craftsman-Craftswoman-Craftsperson.html",
     "date": "2018-05-02T00:00:00Z",
     "tags": null,
@@ -8953,7 +8953,7 @@
   },
   {
     "description": "Pickled State",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/06/06/PickledState.html",
     "date": "2018-06-06T00:00:00Z",
     "tags": null,
@@ -8969,7 +8969,7 @@
   },
   {
     "description": "Integers and Estimates",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/06/21/IntegersAndEstimates.html",
     "date": "2018-06-21T00:00:00Z",
     "tags": null,
@@ -8985,7 +8985,7 @@
   },
   {
     "description": "Too Clean?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/08/13/TooClean.html",
     "date": "2018-08-13T00:00:00Z",
     "tags": null,
@@ -9014,7 +9014,7 @@
   },
   {
     "description": "The Tragedy of Craftsmanship.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/08/28/CraftsmanshipMovement.html",
     "date": "2018-08-28T00:00:00Z",
     "tags": null,
@@ -9054,8 +9054,8 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/processing-multiple-aggregates-transactional-vs-eventual-consistency/",
     "date": "2018-09-26T21:22:32Z",
     "tags": [
-      "DDD",
-      "Transactions"
+      "ddd",
+      "transactions"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9065,10 +9065,10 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/processing-commands-with-hangfire-and-mediatr/",
     "date": "2018-09-29T19:26:46Z",
     "tags": [
-      "DDD",
-      "Design patterns",
-      "Hangfire",
-      "MediatR"
+      "ddd",
+      "design patterns",
+      "hangfire",
+      "mediatr"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9078,12 +9078,12 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/how-to-publish-and-handle-domain-events/",
     "date": "2018-10-11T19:28:08Z",
     "tags": [
-      ".NET Core",
-      "DDD",
-      "Design patterns",
-      "Object-Oriented Design",
-      "Software Architecture",
-      "Transactions"
+      ".net core",
+      "ddd",
+      "design patterns",
+      "object-oriented design",
+      "software architecture",
+      "transactions"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9109,8 +9109,8 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/productivity/dont-waste-your-programmers-time/",
     "date": "2018-10-22T11:12:55Z",
     "tags": [
-      "Managment",
-      "Programming"
+      "managment",
+      "programming"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9120,9 +9120,9 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/cache-aside-pattern-in-net-core/",
     "date": "2018-10-29T11:55:43Z",
     "tags": [
-      ".NET Core",
-      "Caching",
-      "Performance"
+      ".net core",
+      "caching",
+      "performance"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9140,8 +9140,8 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/security/how-to-store-sensitive-configuration-data/",
     "date": "2018-11-08T08:42:58Z",
     "tags": [
-      ".NET Core",
-      "Configuration"
+      ".net core",
+      "configuration"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9151,8 +9151,8 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/database/database-change-management/",
     "date": "2018-11-19T08:57:21Z",
     "tags": [
-      "SQL",
-      "SQL Server"
+      "sql",
+      "sql server"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9162,10 +9162,10 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/database/using-database-project-and-dbup-for-database-management/",
     "date": "2018-11-26T22:23:34Z",
     "tags": [
-      "Libraries",
-      "SQL",
-      "SQL Server",
-      "Tools"
+      "libraries",
+      "sql",
+      "sql server",
+      "tools"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9179,7 +9179,7 @@
   },
   {
     "description": "SJWJS",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/12/14/SJWJS.html",
     "date": "2018-12-14T00:00:00Z",
     "tags": null,
@@ -9187,7 +9187,7 @@
   },
   {
     "description": "We, The Unoffended",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/12/16/unoffended.html",
     "date": "2018-12-16T00:00:00Z",
     "tags": null,
@@ -9195,7 +9195,7 @@
   },
   {
     "description": "FP vs. OO List Processing",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2018/12/17/FPvsOO-List-processing.html",
     "date": "2018-12-17T00:00:00Z",
     "tags": null,
@@ -9223,9 +9223,9 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/",
     "date": "2019-02-04T09:09:50Z",
     "tags": [
-      ".NET Core",
-      "CQRS",
-      "DDD"
+      ".net core",
+      "cqrs",
+      "ddd"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9235,10 +9235,10 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/domain-model-encapsulation-and-pi-with-entity-framework-2-2/",
     "date": "2019-02-13T15:13:48Z",
     "tags": [
-      ".NET Core",
-      "DDD",
-      "Design patterns",
-      "Entity Framework"
+      ".net core",
+      "ddd",
+      "design patterns",
+      "entity framework"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9256,11 +9256,11 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/rest-api-data-validation/",
     "date": "2019-02-21T00:48:42Z",
     "tags": [
-      "CQRS",
-      "Libraries",
-      "MediatR",
-      "REST API",
-      "Validation"
+      "cqrs",
+      "libraries",
+      "mediatr",
+      "rest api",
+      "validation"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9270,10 +9270,10 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/domain-model-validation/",
     "date": "2019-03-04T10:40:23Z",
     "tags": [
-      "DDD",
-      "Design patterns",
-      "REST API",
-      "Validation"
+      "ddd",
+      "design patterns",
+      "rest api",
+      "validation"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9294,12 +9294,12 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/the-outbox-pattern/",
     "date": "2019-03-11T22:45:15Z",
     "tags": [
-      "DDD",
-      "Design patterns",
-      "Entity Framework",
-      "Libraries",
-      "Messaging",
-      "Transactions"
+      "ddd",
+      "design patterns",
+      "entity framework",
+      "libraries",
+      "messaging",
+      "transactions"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9309,9 +9309,9 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/grasp-explained/",
     "date": "2019-04-08T22:37:15Z",
     "tags": [
-      "Design patterns",
-      "Object-Oriented Design",
-      "Programming"
+      "design patterns",
+      "object-oriented design",
+      "programming"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9338,7 +9338,7 @@
   },
   {
     "description": "737 Max 8",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/05/18/737-Max-8.html",
     "date": "2019-05-18T00:00:00Z",
     "tags": null,
@@ -9367,6 +9367,17 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "State Of Dev Ops Report",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/StateOfDevOpsReport.html",
+    "date": "2019-05-29T00:00:00Z",
+    "tags": [
+      "continuous delivery",
+      "productivity"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
     "description": "Is High Quality Software Worth the Cost?",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/articles/is-quality-worth-cost.html",
@@ -9380,17 +9391,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "State Of Dev Ops Report",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/StateOfDevOpsReport.html",
-    "date": "2019-05-29T00:00:00Z",
-    "tags": [
-      "continuous delivery",
-      "productivity"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Merging domain events before dispatching",
     "author": "Vladimir Khorikov",
     "link": "https://enterprisecraftsmanship.com/posts/merging-domain-events-dispatching/",
@@ -9400,7 +9400,7 @@
   },
   {
     "description": "Types and Tests",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/06/08/TestsAndTypes.html",
     "date": "2019-06-08T00:00:00Z",
     "tags": null,
@@ -9408,7 +9408,7 @@
   },
   {
     "description": "Classes vs. Data Structures",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/06/16/ObjectsAndDataStructures.html",
     "date": "2019-06-16T00:00:00Z",
     "tags": null,
@@ -9420,12 +9420,12 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/handling-domain-events-missing-part/",
     "date": "2019-06-18T22:16:20Z",
     "tags": [
-      ".NET Core",
-      "DDD",
-      "Design patterns",
-      "Object-Oriented Design",
-      "Software Architecture",
-      "Transactions"
+      ".net core",
+      "ddd",
+      "design patterns",
+      "object-oriented design",
+      "software architecture",
+      "transactions"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9461,7 +9461,7 @@
   },
   {
     "description": "Why won't it...",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/07/22/WhyWontIt.html",
     "date": "2019-07-22T00:00:00Z",
     "tags": null,
@@ -9477,11 +9477,21 @@
   },
   {
     "description": "Why Clojure?",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/08/22/WhyClojure.html",
     "date": "2019-08-22T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "Don't get locked up into avoiding lock-in",
+    "author": "Gregor Hohpe",
+    "link": "https://martinfowler.com/articles/oss-lockin.html",
+    "date": "2019-09-09T00:00:00Z",
+    "tags": [
+      "enterprise architecture"
+    ],
+    "site": "https://martinfowler.com"
   },
   {
     "description": "Heavy Cardboard Review of Brass Birmingham",
@@ -9491,16 +9501,6 @@
     "tags": [
       "podcast",
       "board games"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Don't get locked up into avoiding lock-in",
-    "author": "Gregor Hohpe",
-    "link": "https://martinfowler.com/articles/oss-lockin.html",
-    "date": "2019-09-09T00:00:00Z",
-    "tags": [
-      "enterprise architecture"
     ],
     "site": "https://martinfowler.com"
   },
@@ -9545,16 +9545,16 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/clean-domain-model-attributes/",
     "date": "2019-10-28T09:52:47Z",
     "tags": [
-      "DDD",
-      "Design patterns",
-      "Object-Oriented Design",
-      "Software Architecture"
+      "ddd",
+      "design patterns",
+      "object-oriented design",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
   {
     "description": "Circulatory",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/10/31/Circulatory.html",
     "date": "2019-10-31T00:00:00Z",
     "tags": null,
@@ -9562,7 +9562,7 @@
   },
   {
     "description": "What They Thought of Programmers.",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/11/03/WhatTheyThoughtOfUs.html",
     "date": "2019-11-03T00:00:00Z",
     "tags": null,
@@ -9570,7 +9570,7 @@
   },
   {
     "description": "Open Letter to the Linux Foundation",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2019/11/08/OpenLetterLinuxFoundation.html",
     "date": "2019-11-08T00:00:00Z",
     "tags": null,
@@ -9622,11 +9622,11 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/modular-monolith-primer/",
     "date": "2019-12-03T00:30:41Z",
     "tags": [
-      "Application Architecture",
-      "Design patterns",
-      "Modular Monolith",
-      "Object-Oriented Design",
-      "Software Architecture"
+      "application architecture",
+      "design patterns",
+      "modular monolith",
+      "object-oriented design",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9644,10 +9644,10 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/modular-monolith-architectural-drivers/",
     "date": "2019-12-26T23:20:47Z",
     "tags": [
-      "Application Architecture",
-      "Microservices",
-      "Modular Monolith",
-      "Software Architecture"
+      "application architecture",
+      "microservices",
+      "modular monolith",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9760,11 +9760,11 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/modular-monolith-architecture-enforcement/",
     "date": "2020-03-22T21:41:46Z",
     "tags": [
-      "Application Architecture",
-      "Modular Monolith",
-      "Software Architecture",
-      "Software Architecture Documentation",
-      "Tests"
+      "application architecture",
+      "modular monolith",
+      "software architecture",
+      "software architecture documentation",
+      "tests"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -9781,7 +9781,7 @@
   },
   {
     "description": "A New Hope",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/04/05/ANewHope.html",
     "date": "2020-04-05T00:00:00Z",
     "tags": null,
@@ -9797,7 +9797,7 @@
   },
   {
     "description": "A Little Clojure",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/04/06/ALittleClojure.html",
     "date": "2020-04-06T00:00:00Z",
     "tags": null,
@@ -9809,18 +9809,18 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/strangling-net-framework-app-to-net-core/",
     "date": "2020-04-07T07:22:21Z",
     "tags": [
-      ".NET Core",
-      "Application Architecture",
-      "Design patterns",
-      "MediatR",
-      "REST API",
-      "Software Architecture"
+      ".net core",
+      "application architecture",
+      "design patterns",
+      "mediatr",
+      "rest api",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
   {
     "description": "A Little More Clojure",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/04/09/ALittleMoreClojure.html",
     "date": "2020-04-09T00:00:00Z",
     "tags": null,
@@ -9858,6 +9858,14 @@
     "site": "https://martinfowler.com"
   },
   {
+    "description": "How to Strengthen Requirements for Pre-existing Data",
+    "author": "Vladimir Khorikov",
+    "link": "https://enterprisecraftsmanship.com/posts/strengthening-requirements-pre-existing-data/",
+    "date": "2020-04-29T00:00:00Z",
+    "tags": null,
+    "site": "https://enterprisecraftsmanship.com"
+  },
+  {
     "description": "Humble Object",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/HumbleObject.html",
@@ -9868,12 +9876,14 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "How to Strengthen Requirements for Pre-existing Data",
-    "author": "Vladimir Khorikov",
-    "link": "https://enterprisecraftsmanship.com/posts/strengthening-requirements-pre-existing-data/",
+    "description": "Dark Launching",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/DarkLaunching.html",
     "date": "2020-04-29T00:00:00Z",
-    "tags": null,
-    "site": "https://enterprisecraftsmanship.com"
+    "tags": [
+      "continuous delivery"
+    ],
+    "site": "https://martinfowler.com"
   },
   {
     "description": "Keystone Interface",
@@ -9885,16 +9895,6 @@
       "version control",
       "application architecture",
       "front-end"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
-    "description": "Dark Launching",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/DarkLaunching.html",
-    "date": "2020-04-29T00:00:00Z",
-    "tags": [
-      "continuous delivery"
     ],
     "site": "https://martinfowler.com"
   },
@@ -9915,34 +9915,24 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/handling-concurrency-aggregate-pattern-and-ef-core/",
     "date": "2020-05-14T22:43:53Z",
     "tags": [
-      "Application Architecture",
-      "DDD",
-      "Design patterns",
-      "Entity Framework",
-      "Performance",
-      "SQL",
-      "SQL Server",
-      "Transactions"
+      "application architecture",
+      "ddd",
+      "design patterns",
+      "entity framework",
+      "performance",
+      "sql",
+      "sql server",
+      "transactions"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
   {
     "description": "REPL Driven Design",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/05/27/ReplDrivenDesign.html",
     "date": "2020-05-27T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
-  },
-  {
-    "description": "A Guide to Threat Modelling for Developers",
-    "author": "Jim Gumbley",
-    "link": "https://martinfowler.com/articles/agile-threat-modelling.html",
-    "date": "2020-05-28T00:00:00Z",
-    "tags": [
-      "security"
-    ],
-    "site": "https://martinfowler.com"
   },
   {
     "description": "Patterns for Managing Source Code Branches",
@@ -9953,6 +9943,16 @@
       "continuous delivery",
       "collaboration",
       "version control"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "A Guide to Threat Modelling for Developers",
+    "author": "Jim Gumbley",
+    "link": "https://martinfowler.com/articles/agile-threat-modelling.html",
+    "date": "2020-05-28T00:00:00Z",
+    "tags": [
+      "security"
     ],
     "site": "https://martinfowler.com"
   },
@@ -9996,23 +9996,15 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/modular-monolith-integration-styles/",
     "date": "2020-07-26T22:37:17Z",
     "tags": [
-      "Application Architecture",
-      "DDD",
-      "Integration",
-      "Messaging",
-      "Microservices",
-      "Modular Monolith",
-      "Software Architecture"
+      "application architecture",
+      "ddd",
+      "integration",
+      "messaging",
+      "microservices",
+      "modular monolith",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
-  },
-  {
-    "description": "Patterns of Distributed Systems",
-    "author": "Unmesh Joshi",
-    "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/",
-    "date": "2020-08-04T00:00:00Z",
-    "tags": null,
-    "site": "https://martinfowler.com"
   },
   {
     "description": "Domain model purity vs. domain model completeness",
@@ -10021,6 +10013,14 @@
     "date": "2020-08-04T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
+  },
+  {
+    "description": "Patterns of Distributed Systems",
+    "author": "Unmesh Joshi",
+    "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/",
+    "date": "2020-08-04T00:00:00Z",
+    "tags": null,
+    "site": "https://martinfowler.com"
   },
   {
     "description": "Kinesis Advantage2 - Review after three years of use",
@@ -10065,9 +10065,17 @@
   },
   {
     "description": "The Disinvitation",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/09/12/TheDisinvitation.html",
     "date": "2020-09-12T00:00:00Z",
+    "tags": null,
+    "site": "https://blog.cleancoder.com"
+  },
+  {
+    "description": "Conference Conduct",
+    "author": "Uncle Bob",
+    "link": "https://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct.html",
+    "date": "2020-09-23T00:00:00Z",
     "tags": null,
     "site": "https://blog.cleancoder.com"
   },
@@ -10078,14 +10086,6 @@
     "date": "2020-09-23T00:00:00Z",
     "tags": null,
     "site": "https://enterprisecraftsmanship.com"
-  },
-  {
-    "description": "Conference Conduct",
-    "author": "Robert C. Martin (Uncle Bob)",
-    "link": "https://blog.cleancoder.com/uncle-bob/2020/09/23/ConferenceConduct.html",
-    "date": "2020-09-23T00:00:00Z",
-    "tags": null,
-    "site": "https://blog.cleancoder.com"
   },
   {
     "description": "Don't Compare Averages",
@@ -10100,7 +10100,7 @@
   },
   {
     "description": "Loopy",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/09/30/loopy.html",
     "date": "2020-09-30T00:00:00Z",
     "tags": null,
@@ -10126,7 +10126,7 @@
   },
   {
     "description": "Solid Relevance",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html",
     "date": "2020-10-18T00:00:00Z",
     "tags": null,
@@ -10161,9 +10161,9 @@
     "site": "https://enterprisecraftsmanship.com"
   },
   {
-    "description": "Computational Notebook",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/ComputationalNotebook.html",
+    "description": "Don't put data science notebooks into production",
+    "author": "David Johnston",
+    "link": "https://martinfowler.com/articles/productize-data-sci-notebooks.html",
     "date": "2020-11-18T00:00:00Z",
     "tags": [
       "data analytics"
@@ -10171,9 +10171,9 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Don't put data science notebooks into production",
-    "author": "David Johnston",
-    "link": "https://martinfowler.com/articles/productize-data-sci-notebooks.html",
+    "description": "Computational Notebook",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/ComputationalNotebook.html",
     "date": "2020-11-18T00:00:00Z",
     "tags": [
       "data analytics"
@@ -10194,14 +10194,14 @@
     "link": "http://www.kamilgrzybek.comhttp://www.kamilgrzybek.com/design/modular-monolith-domain-centric-design/",
     "date": "2020-12-01T00:31:49Z",
     "tags": [
-      "Application Architecture",
-      "CQRS",
-      "DDD",
-      "Design patterns",
-      "Integration",
-      "Modular Monolith",
-      "Object-Oriented Design",
-      "Software Architecture"
+      "application architecture",
+      "cqrs",
+      "ddd",
+      "design patterns",
+      "integration",
+      "modular monolith",
+      "object-oriented design",
+      "software architecture"
     ],
     "site": "http://www.kamilgrzybek.com"
   },
@@ -10253,7 +10253,7 @@
   },
   {
     "description": "Pairing Guidelines",
-    "author": "Robert C. Martin (Uncle Bob)",
+    "author": "Uncle Bob",
     "link": "https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html",
     "date": "2021-01-17T00:00:00Z",
     "tags": null,
@@ -10271,17 +10271,6 @@
     "site": "https://martinfowler.com"
   },
   {
-    "description": "Pull Request",
-    "author": "Martin Fowler",
-    "link": "https://martinfowler.com/bliki/PullRequest.html",
-    "date": "2021-01-28T00:00:00Z",
-    "tags": [
-      "continuous delivery",
-      "tools"
-    ],
-    "site": "https://martinfowler.com"
-  },
-  {
     "description": "Refinement Code Review",
     "author": "Martin Fowler",
     "link": "https://martinfowler.com/bliki/RefinementCodeReview.html",
@@ -10291,6 +10280,17 @@
       "process theory",
       "collaboration",
       "refactoring"
+    ],
+    "site": "https://martinfowler.com"
+  },
+  {
+    "description": "Pull Request",
+    "author": "Martin Fowler",
+    "link": "https://martinfowler.com/bliki/PullRequest.html",
+    "date": "2021-01-28T00:00:00Z",
+    "tags": [
+      "continuous delivery",
+      "tools"
     ],
     "site": "https://martinfowler.com"
   }

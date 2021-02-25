@@ -25,6 +25,8 @@ func main() {
 		err = extractArticles()
 	case "markdown":
 		err = createMarkdown()
+	default:
+		err = errors.New("not implemented action")
 	}
 	if err != nil {
 		log.Fatal(err.Error())
@@ -78,7 +80,7 @@ func createMarkdown() error {
 		return errors.Wrap(err, "failed to decode articles")
 	}
 	data := markdownBySite(articles)
-	err = ioutil.WriteFile("./../groupedBySite.md", []byte(data), os.ModePerm)
+	err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
 	if err != nil {
 		return errors.Wrap(err, "failed to create markdown file")
 	}
