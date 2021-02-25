@@ -79,13 +79,10 @@ func createMarkdown() error {
 	if err != nil {
 		return errors.Wrap(err, "failed to decode articles")
 	}
-	data := markdownByBlog(articles)
-	err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
-	if err != nil {
-		return errors.Wrap(err, "failed to create markdown by blog file")
-	}
-	data = markdownByTags(articles)
-	err = ioutil.WriteFile("./../groupedBTags.md", []byte(data), os.ModePerm)
+	byBlog := markdownByBlog(articles)
+	byTags := markdownByTags(articles)
+	readme := readmeMarkdown(fmt.Sprintf("%s\n\n%s", byBlog, byTags))
+	err = ioutil.WriteFile("./../README.md", []byte(readme), os.ModePerm)
 	if err != nil {
 		return errors.Wrap(err, "failed to create markdown by tags file")
 	}
@@ -131,6 +128,16 @@ func markdownByTags(articles article.Articles) string {
 		}
 	}
 	markdown += "\n" + postMarkdown
+	return markdown
+}
+
+func readmeMarkdown(data string) string {
+	markdown := "# Software Development Articles\n\n"
+	markdown += "A list of articles from blogs about software development in json.\n\n"
+	markdown += "## Indices\n"
+	markdown += "- [Contents by blog](#content-by-blog).\n"
+	markdown += "- [Contents by tags](#content-by-tags).\n\n"
+	markdown += data
 	return markdown
 }
 
