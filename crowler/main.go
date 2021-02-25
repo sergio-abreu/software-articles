@@ -79,12 +79,12 @@ func createMarkdown() error {
 	if err != nil {
 		return errors.Wrap(err, "failed to decode articles")
 	}
-	//data := markdownByBlog(articles)
-	//err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
-	//if err != nil {
-	//	return errors.Wrap(err, "failed to create markdown by blog file")
-	//}
-	data := markdownByTags(articles)
+	data := markdownByBlog(articles)
+	err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
+	if err != nil {
+		return errors.Wrap(err, "failed to create markdown by blog file")
+	}
+	data = markdownByTags(articles)
 	err = ioutil.WriteFile("./../groupedBTags.md", []byte(data), os.ModePerm)
 	if err != nil {
 		return errors.Wrap(err, "failed to create markdown by tags file")
@@ -124,8 +124,8 @@ func markdownByTags(articles article.Articles) string {
 	var postMarkdown string
 	for _, tag := range tags {
 		tagArticles := groupedArticles[tag]
-		markdown += fmt.Sprintf("- [%s](#%s)\n", tag, strings.ToLower(strings.ReplaceAll(tag, " ", "-")))
-		postMarkdown += fmt.Sprintf("## %s\n", tag)
+		markdown += fmt.Sprintf("- [%s](#%s)\n", strings.TrimSpace(tag), strings.ToLower(strings.ReplaceAll(strings.TrimSpace(tag), " ", "-")))
+		postMarkdown += fmt.Sprintf("## %s\n", strings.TrimSpace(tag))
 		for _, a := range tagArticles {
 			postMarkdown += fmt.Sprintf("* %s - [%s - %s](%s) [%s]\n", a.Date.Format("02 Jan 06"), a.Author, a.Description, a.Link, strings.Join(a.Tags, ", "))
 		}
@@ -145,6 +145,11 @@ func groupArticlesByBlog(articles article.Articles) map[string]article.Articles 
 func groupArticlesByTags(articles article.Articles) map[string]article.Articles {
 	group := map[string]article.Articles{}
 	for _, a := range articles {
+		if len(a.Tags) == 0 {
+			tag := " no tags"
+			group[tag] = append(group[tag], a)
+			continue
+		}
 		for _, tag := range a.Tags {
 			group[tag] = append(group[tag], a)
 		}
