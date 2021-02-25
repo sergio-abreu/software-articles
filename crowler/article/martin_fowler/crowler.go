@@ -4,13 +4,14 @@ import (
 	"astuart.co/goq"
 	"fmt"
 	"github.com/pkg/errors"
+	"github.com/sergio-vaz-abreu/software-articles/article"
 	"github.com/sergio-vaz-abreu/software-articles/curation"
 	"io/ioutil"
 	"net/http"
 	"sync"
 )
 
-func ExtractArticles() ([]Article, error) {
+func ExtractArticles() ([]article.Article, error) {
 	articlesCh := make(chan []Article, 100)
 	errCh := make(chan error)
 	var wg sync.WaitGroup
@@ -36,9 +37,13 @@ func ExtractArticles() ([]Article, error) {
 	wg.Wait()
 	close(articlesCh)
 	close(errCh)
-	var articles []Article
-	for article := range articlesCh {
-		articles = append(articles, article...)
+	var articles []article.Article
+	for a := range articlesCh {
+		convertArticles, err := ConvertArticles(a)
+		if err != nil {
+			return nil, errors.Wrap(err, "failed to parse to default article")
+		}
+		articles = append(articles, convertArticles...)
 	}
 	return articles, nil
 }
@@ -61,7 +66,7 @@ func ExtractArticles2() ([]Article, error) {
 }
 
 func getArticlesListPage(year int) ([]byte, error) {
-	res, err := http.Get(fmt.Sprintf("%s/tags/%d.html", curation.MartinFowler, year))
+	res, err := http.Get(fmt.Sprintf("%s/tags/%d.html", curation.MartinFowlerBlog, year))
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to get html")
 	}

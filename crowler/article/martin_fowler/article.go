@@ -1,8 +1,9 @@
 package martin_fowler
 
 import (
-	"encoding/json"
 	"fmt"
+	"github.com/pkg/errors"
+	"github.com/sergio-vaz-abreu/software-articles/article"
 	"github.com/sergio-vaz-abreu/software-articles/curation"
 	"strings"
 	"time"
@@ -20,19 +21,37 @@ type Article struct {
 	Tags        []string `goquery:"span.tag-link"`
 }
 
-func (a Article) MarshalJSON() ([]byte, error) {
-	date, err := time.Parse("_2 Jan 2006", a.Date)
-	if err != nil {
-		date, err = time.Parse("Jan 2006", a.Date)
+func ConvertArticles(customArticles []Article) ([]article.Article, error) {
+	var articles []article.Article
+	for _, customArticle := range customArticles {
+		a, err := ToArticle(customArticle)
 		if err != nil {
 			return nil, err
 		}
+		articles = append(articles, a)
 	}
-	a.Date = date.Format("2006-01-02")
-	a.Author = strings.Replace(a.Author, "by ", "", 1)
-	a.Author = strings.Replace(a.Author, "with ", "", 1)
-	a.Link = fmt.Sprintf("%s%s", curation.MartinFowler, a.Link)
-	type marshaledArticle Article
-	article := marshaledArticle(a)
-	return json.Marshal(article)
+	return articles, nil
+}
+
+func ToArticle(customArticle Article) (article.Article, error) {
+	date, err := time.Parse("_2 Jan 2006", customArticle.Date)
+	if err != nil {
+		date, err = time.Parse("Jan 2006", customArticle.Date)
+		if err != nil {
+			return article.Article{}, errors.Wrap(err, "failed to parse date")
+		}
+	}
+	author := strings.Replace(customArticle.Author, "by ", "", 1)
+	author = strings.Replace(author, "with ", "", 1)
+	if len(author) == 0 {
+		author = curation.GetCuratorName(curation.MartinFowlerBlog)
+	}
+	return article.Article{
+		Description: customArticle.Description,
+		Author:      author,
+		Link:        fmt.Sprintf("%s%s", curation.MartinFowlerBlog, customArticle.Link),
+		Date:        date,
+		Tags:        customArticle.Tags,
+		Site:        curation.MartinFowlerBlog,
+	}, nil
 }

@@ -4,13 +4,14 @@ import (
 	"astuart.co/goq"
 	"fmt"
 	"github.com/pkg/errors"
+	"github.com/sergio-vaz-abreu/software-articles/article"
 	"github.com/sergio-vaz-abreu/software-articles/curation"
 	"io/ioutil"
 	"net/http"
 )
 
-func ExtractArticles() ([]Article, error) {
-	articlesListHtml, err := getArticlesListPage(string(curation.KamilGrzybek))
+func ExtractArticles() ([]article.Article, error) {
+	articlesListHtml, err := getArticlesListPage(string(curation.KamilGrzybekBlog))
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to get articles list page")
 	}
@@ -19,7 +20,7 @@ func ExtractArticles() ([]Article, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to parse article list")
 	}
-	var articles []Article
+	var articles []article.Article
 	for _, link := range articleList.Link {
 		articleHtml, err := getArticlesListPage(link)
 		if err != nil {
@@ -30,7 +31,11 @@ func ExtractArticles() ([]Article, error) {
 		if err != nil {
 			return nil, errors.Wrap(err, "failed to parse articles")
 		}
-		articles = append(articles, page.Articles...)
+		convertArticles, err := ConvertArticles(page.Articles)
+		if err != nil {
+			return nil, errors.Wrap(err, "failed to parse to default article")
+		}
+		articles = append(articles, convertArticles...)
 	}
 	return articles, nil
 }

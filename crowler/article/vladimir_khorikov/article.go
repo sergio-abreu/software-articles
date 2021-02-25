@@ -1,9 +1,9 @@
 package vladimir_khorikov
 
 import (
-	"encoding/json"
 	"fmt"
 	"github.com/pkg/errors"
+	"github.com/sergio-vaz-abreu/software-articles/article"
 	"github.com/sergio-vaz-abreu/software-articles/curation"
 	"time"
 )
@@ -20,15 +20,29 @@ type Article struct {
 	Tags        []string
 }
 
-func (a Article) MarshalJSON() ([]byte, error) {
-	date, err := time.Parse("02 Jan 2006", a.Date)
-	if err != nil {
-		return nil, errors.Wrap(err, "failed to parse date")
+func ConvertArticles(customArticles []Article) ([]article.Article, error) {
+	var articles []article.Article
+	for _, customArticle := range customArticles {
+		a, err := ToArticle(customArticle)
+		if err != nil {
+			return nil, err
+		}
+		articles = append(articles, a)
 	}
-	a.Date = date.Format("2006-01-02")
-	a.Author = "Vladimir Khorikov"
-	a.Link = fmt.Sprintf("%s%s", curation.VladimirKhorikov, a.Link)
-	type marshaledArticle Article
-	article := marshaledArticle(a)
-	return json.Marshal(article)
+	return articles, nil
+}
+
+func ToArticle(customArticle Article) (article.Article, error) {
+	date, err := time.Parse("02 Jan 2006", customArticle.Date)
+	if err != nil {
+		return article.Article{}, errors.Wrap(err, "failed to parse date")
+	}
+	return article.Article{
+		Description: customArticle.Description,
+		Author:      curation.GetCuratorName(curation.VladimirKhorikovBlog),
+		Link:        fmt.Sprintf("%s%s", curation.VladimirKhorikovBlog, customArticle.Link),
+		Date:        date,
+		Tags:        customArticle.Tags,
+		Site:        curation.VladimirKhorikovBlog,
+	}, nil
 }

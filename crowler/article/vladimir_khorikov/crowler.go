@@ -4,12 +4,13 @@ import (
 	"astuart.co/goq"
 	"fmt"
 	"github.com/pkg/errors"
+	"github.com/sergio-vaz-abreu/software-articles/article"
 	"github.com/sergio-vaz-abreu/software-articles/curation"
 	"io/ioutil"
 	"net/http"
 )
 
-func ExtractArticles() ([]Article, error) {
+func ExtractArticles() ([]article.Article, error) {
 	articlesListHtml, err := getArticlesListPage()
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to get articles list page")
@@ -19,11 +20,12 @@ func ExtractArticles() ([]Article, error) {
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to parse article list")
 	}
-	return page.Articles, nil
+	articles, err := ConvertArticles(page.Articles)
+	return articles, errors.Wrap(err, "failed to parse to default articles")
 }
 
 func getArticlesListPage() ([]byte, error) {
-	res, err := http.Get(fmt.Sprintf("%s%s", curation.VladimirKhorikov, "/archives"))
+	res, err := http.Get(fmt.Sprintf("%s%s", curation.VladimirKhorikovBlog, "/archives"))
 	if err != nil {
 		return nil, errors.Wrap(err, "failed to get html")
 	}
