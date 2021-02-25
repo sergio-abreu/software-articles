@@ -79,22 +79,27 @@ func createMarkdown() error {
 	if err != nil {
 		return errors.Wrap(err, "failed to decode articles")
 	}
-	data := markdownBySite(articles)
-	err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
+	//data := markdownByBlog(articles)
+	//err = ioutil.WriteFile("./../groupedByBlog.md", []byte(data), os.ModePerm)
+	//if err != nil {
+	//	return errors.Wrap(err, "failed to create markdown by blog file")
+	//}
+	data := markdownByTags(articles)
+	err = ioutil.WriteFile("./../groupedBTags.md", []byte(data), os.ModePerm)
 	if err != nil {
-		return errors.Wrap(err, "failed to create markdown file")
+		return errors.Wrap(err, "failed to create markdown by tags file")
 	}
 	return nil
 }
 
-func markdownBySite(articles article.Articles) string {
+func markdownByBlog(articles article.Articles) string {
 	groupedArticles := groupArticlesByBlog(articles)
-	markdown := "### Content By Blog\n\n"
 	var authors []string
 	for blog := range groupedArticles {
 		authors = append(authors, curation.GetCuratorName(blog))
 	}
 	sort.Strings(authors)
+	markdown := "### Content By Blog\n\n"
 	var postMarkdown string
 	for _, author := range authors {
 		siteArticles := groupedArticles[curation.GetBlog(author)]
@@ -108,10 +113,41 @@ func markdownBySite(articles article.Articles) string {
 	return markdown
 }
 
+func markdownByTags(articles article.Articles) string {
+	groupedArticles := groupArticlesByTags(articles)
+	var tags []string
+	for tag := range groupedArticles {
+		tags = append(tags, tag)
+	}
+	sort.Strings(tags)
+	markdown := "### Content By Tags\n\n"
+	var postMarkdown string
+	for _, tag := range tags {
+		tagArticles := groupedArticles[tag]
+		markdown += fmt.Sprintf("- [%s](#%s)\n", tag, strings.ToLower(strings.ReplaceAll(tag, " ", "-")))
+		postMarkdown += fmt.Sprintf("## %s\n", tag)
+		for _, a := range tagArticles {
+			postMarkdown += fmt.Sprintf("* %s - [%s - %s](%s) [%s]\n", a.Date.Format("02 Jan 06"), a.Author, a.Description, a.Link, strings.Join(a.Tags, ", "))
+		}
+	}
+	markdown += "\n" + postMarkdown
+	return markdown
+}
+
 func groupArticlesByBlog(articles article.Articles) map[string]article.Articles {
 	group := map[string]article.Articles{}
 	for _, a := range articles {
 		group[a.Site] = append(group[a.Site], a)
+	}
+	return group
+}
+
+func groupArticlesByTags(articles article.Articles) map[string]article.Articles {
+	group := map[string]article.Articles{}
+	for _, a := range articles {
+		for _, tag := range a.Tags {
+			group[tag] = append(group[tag], a)
+		}
 	}
 	return group
 }
