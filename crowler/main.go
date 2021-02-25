@@ -96,13 +96,13 @@ func markdownBySite(articles article.Articles) string {
 	var postMarkdown string
 	for _, author := range authors {
 		siteArticles := groupedArticles[curation.GetBlog(author)]
-		markdown += fmt.Sprintf("- [%s](#%s)\n\n", author, strings.ToLower(strings.ReplaceAll(author, " ", "-")))
-		postMarkdown += fmt.Sprintf("## [%s](%s)\n\n", author, curation.GetBlog(author))
+		markdown += fmt.Sprintf("- [%s](#%s)\n", author, strings.ToLower(strings.ReplaceAll(author, " ", "-")))
+		postMarkdown += fmt.Sprintf("## [%s](%s)\n", author, curation.GetBlog(author))
 		for _, a := range siteArticles {
-			postMarkdown += fmt.Sprintf("* %s - [%s](%s) [%s]\n\n", a.Date.Format("02 Jan 06"), a.Description, a.Link, strings.Join(a.Tags, ", "))
+			postMarkdown += fmt.Sprintf("* %s - [%s](%s) [%s]\n", a.Date.Format("02 Jan 06"), a.Description, a.Link, strings.Join(a.Tags, ", "))
 		}
 	}
-	markdown += postMarkdown
+	markdown += "\n" + postMarkdown
 	return markdown
 }
 
